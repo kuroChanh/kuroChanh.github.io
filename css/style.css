@@ -1,0 +1,479 @@
+body,a , p, ul, html, div{
+	padding: 0;
+	margin: 0;
+}
+body {
+	/*background: #21aeb8;*/
+	background-image: url("../images/bgimg.png");
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+h1 {
+	font-size: 25px;
+}
+/*NAV BAR*/
+#nav {
+	/*stays on screen*/
+	position: fixed;
+	/*stays on top*/
+	z-index: 3;
+	width: 100%;
+	background-color: #000000;
+	color: #000000;
+	text-align: center;
+}
+#nav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	/*hints to clickable items*/
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	font-weight: bold;
+}
+#nav a:hover {
+	background-color: #443a45;
+	/*animation time*/
+	transition: all .2s;
+}
+#nav ul {
+	display: inline-block;
+	/*no bullets*/
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#nav li {
+	float: left;
+}
+/*COVER IMAGE*/
+#coverimg {
+	/*must call image like this to have it centered as background*/
+	background-image: url("../images/coverimg22.jpg");
+	width: 100%;
+	/*equal the height of the screen*/
+	height: 100vh;
+	/*image is centered when window changes width*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	z-index: 2;
+	/*LET'S ME KEEP THE COVER IMAGE ON TOP, HIDE THE SIDE BAR AND KEEP LINKS*/
+	position: relative;
+	outline: none;
+}
+/*SIDE SECTION*/
+#side {
+	/*stays on the left side*/
+	position: fixed;
+	background: #FFFFFF;
+	width: 25%;
+	margin-left: 1.58%;
+	/*keeps it from disappearing*/
+	top: 3.5em;
+}
+/*PROFILE*/
+#profileimg {
+	background-image: url("../images/profileimg.jpg");
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	outline: none;
+}
+img {
+	border-style: none;
+}
+#profile {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+#profile h1 {
+	text-align: center;
+	font-size: 17px;
+}
+#profile p, a {
+	/*spacing at the bottom to look even*/
+	padding: 0;
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+#profile #greet {
+	text-align: center;
+	font-size: 11px;
+}
+#sideimg {
+	margin-left: 1.58%;
+}
+#profile a {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*CONTACT INFO*/
+#twitter, #wordpress {
+	text-align: left;
+	margin-left: 10%;
+}
+#twittericon, #wordpressicon, #linkedinicon {
+	background: #000000;
+	border-radius: 5px;
+	padding: 5px;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+/*MUSIC*/
+#music {
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+}
+#pButton {
+	width: 15%;
+	height: 20px;
+	background: #FFFFFF;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	border-style: none;
+	outline: none;
+	/*margin-left: 20%;*/
+}
+#prevBtn, #nextBtn {
+	width: 10%;
+	height: 20px;
+	background: #FFFFFF;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	border-style: none;
+	outline: none;	
+}
+#prevBtn:hover, #pButton:hover, #nextBtn:hover {
+	cursor: pointer;
+}
+/*#timeline {*/
+	/*width in percentage*/
+	/*width: 36.4%;*/
+	/*width: 113.5px;*/
+	/*width: 20%;
+	height: 10px;
+	background: #000000;
+	margin-top: 5px;
+	float: left;
+	border-radius: 15px;
+}
+#playhead {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #FFFFFF;
+}*/
+#musicicon {
+	float: right;
+	width: 20%;
+	height: 20px;
+	background-image: url('../images/musicicon.gif');
+	background-position: center;
+	margin-right: 5%;
+}
+/*MAIN SECTION*/
+#main {
+	float: right;
+	background: #FFFFFF;
+	width: 70%;
+	margin-right: 1.58%;
+	margin-top: -3px;
+}
+#main h1, h2, p{
+	text-align: center;
+}
+/*MAIN SECTIONS*/
+/*#art, #games{
+	padding-left: 4%;
+	padding-right: 4%;
+}*/
+/*ABOUT SECTION*/
+/*about slider base*/
+#slider {
+	list-style-type: none;
+	width: 100%;
+	height: 585px;
+}
+/*slider details*/
+#intro{
+	padding-top: 140px;
+	/*display: none;*/
+}
+#intro #introimg{
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#code{
+	padding-top: 160px;
+	display: none;
+}
+#code #codeimg{
+	display: block;
+	float: right;
+	width: 300px;
+	margin-left: 5%;
+	margin-right: 10%;
+	padding-top: 25px;
+}
+#code #codetext{
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+#interest{
+	padding-top: 160px;
+	display: none;
+}
+#interest #interestimg{
+	display: block;
+	float: left;
+	width: 300px;
+	margin-left: 10%;
+	margin-right: 5%;
+	padding-top: 15px;
+}
+#interest #interesttext{
+	display: inline-block;
+	float: right;
+	margin-left: 5%;
+	margin-right: 10%;
+}
+#anime{
+	display: none;
+}
+#animeset{
+	padding: 10px;
+}
+#animeimg1{
+	width: 50%;
+}
+/*#anime #animetext{
+	z-index: 2;
+	position: absolute;
+	color: #FFFFFF;
+	text-shadow: 0 0 2px #000000;
+	padding-top: 140px;
+	margin-left: 23%;
+	margin-right: 23%;
+}*/
+#songs{
+	display: none;
+}
+#songs #songsimg{
+	position: relative;
+	width: 90%;
+	height: 90%;
+}
+#songs #songstext{
+	z-index: 2;
+	position: absolute;
+	color: #FFFFFF;
+	text-shadow: 0 0 2px #000000;
+	padding-top: 140px;
+	margin-left: 23%;
+	margin-right: 23%;
+}
+/*games section*/
+#games{
+	margin: 0;
+	display: none;
+	background-size: 48%;
+	height: 91%;
+	background-image: url('../images/Games/3ds.png');
+	background-repeat: no-repeat;
+	background-position: 2%;
+}
+#gameleft{
+	float: left;
+}
+#gameright{
+	float: left;
+	padding-top: 5%;
+	padding-left: 11%;
+}
+#drop2{
+	padding-left: 10px;
+}
+#topscreen{
+	padding-top: 79px;
+	padding-left: 80px;
+}
+#topgallery{
+	background-color: black;
+	width: 312px;
+	height: 187px;
+	background-image: url("");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#bottomscreen{
+	padding-left: 112px;
+	padding-top: 54px;
+}
+#bottomgallery{
+	background-color: black;
+	width: 247px;
+	height: 187px;
+	background-image: url("");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#favchara{
+	float: left;
+	padding-left: 10%;
+}
+#favchara p{
+	padding-top: 5%;
+}
+#favchara img{
+	width: 75%;
+	padding-top: 5%;
+	padding-left: 11%;
+}
+/*dropdown*/
+.dropbtn{
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	font-size: 13px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropcontent{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width:160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropcontent a{
+	color: black;
+	padding: 5px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropcontent a:hover{
+	background-color: #f1f1f1;
+}
+.dropdown:hover .dropcontent{
+	display: block;
+}
+.dropdown:hover .dropbtn{
+	background-color: gray;
+}
+/*slider navbar*/
+#slidernav {
+	width: 100%; 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+#slidernav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	outline: none;
+}
+#slidernav a:hover {
+	background-color: #443a45;
+	transition: all .2s;
+}
+#slidernav ul {
+	display: inline-block;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#slidernav li {
+	float: left;
+}
+/*ARTWORK SECTION*/
+#gallery {
+	width: 100%;
+	height: 439px;
+	background-color: #000000;
+	margin-top: 25px;
+}
+#gallery #previous {
+	float: left;
+	width: 5%;
+	height: 100%;
+	background-color: #000000;
+	border-style: none;
+	outline: none;
+	color: #FFFFFF;
+}
+#gallery #next {
+	float: right;
+	width: 5%;
+	height: 100%;
+	background-color: #000000;
+	border-style: none;
+	outline: none;
+	color: #FFFFFF;
+}
+#gallery #previous:hover, #gallery #next:hover {
+	background-color: #443a45;
+	cursor: pointer;
+	transition: all .2s;
+}
+#img {
+	float: left;
+	width: 90%;
+	height: 90%;
+	margin-top: 22px;
+	margin-right: 0;
+	background-color: #000000;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: center;
+	/*FIND A WAY TO HAVE THE IMAGE NOT SO BIG*/
+}
+/*GAME WORKS SECTION*/
+#games {
+	padding-bottom: 5%;
+}
+/*COPYRIGHT INFO*/
+footer {
+	/*everything is set to the bottom*/
+	clear: both;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+footer hr{
+	/*changed the width and colour*/
+	width: 320px;
+	display: block;
+	border: 0;
+	border-top: 1px solid #FFFFFF;
+}
+footer p {
+	color: #FFFFFF;
+}
