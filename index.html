@@ -17,7 +17,242 @@
 		<script type="text/javascript" src="js/gallery.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 	</head>
+	<body><!DOCTYPE html>
+<html>
+	<head>
+		<!--readers can read in english-->
+		<meta charset="UTF-8">
+		<!--tab title-->
+		<title>Welcome!</title>
+		<!--tab icon-->
+		<link rel="icon" type="image/icon" href="images/profileimg.ico"/>
+		<!--link to the font awesome file-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!--other files-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/music.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+	</head>
 	<body>
+		<div id="nav">
+			<!--list of tabs-->
+			<ul>
+				<li><a id="home">Home</a></li>
+				<li><a name="about" class="mainnav">About</a></li>
+				<!-- <li><a name="art" class="mainnav">Artwork</a></li>
+				<li><a name="projects" class="mainnav">Game Works</a></li>
+				<li><a name="resume" class="mainnav">Resume</a></li> -->
+			</ul>
+		</div>
+		<div id="coverimg"></div>
+		<div id="side">
+			<!-- profile background -->
+			<div id="profileimg"></div>
+			<!-- kuroChanh -->
+			<div id="profile">
+				<h1>Neenee Ngo</h1>
+				<p id="greet">Gamer Tag: kuroChanh</p>
+				<hr/>
+				<!--Music-->
+				<div id="music">
+					<button id="prevBtn" class="fa fa-step-backward"></button>
+					<button id="pButton" class="fa fa-play"></button>
+					<button id="nextBtn" class="fa fa-step-forward"></button>
+					<div id="timeline">
+						<div id="playhead"></div>
+					</div>
+					<div id="musicicon"></div>
+				</div>
+				<audio id="audio" preload="true">
+					<source src="audio/It Was Love.mp3"/>
+				</audio>
+				<hr/>
+				<!--Profile Info-->
+				<p>Game Programming Student at Humber College</p>
+				<p>Peer Tutor at Humber College</p>
+				<p>Playing Fire Emblem Awakening</p>
+				<hr/>
+				<p>Email: tuyetnhi@hotmail.ca</p>
+				<p>Discord: kuroChanh #1715</p>
+				<hr/>
+				<!--Contact-->
+				<!--Change icon links to text links with the icon on the side-->
+				<div id="contact">
+					<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fa fa-twitter fa"></a>
+					<a href="https://kurochanh.wordpress.com" id="wordpressicon" class="fa fa-wordpress fa"></a>
+					<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo-475aa5105/" id="linkedinicon" class="fa fa-linkedin-square"></a>
+				</div>
+			</div>
+		</div>
+		<img id="sideimg"/>
+		<div id="main">
+			<div id="about">
+				<!-- about slideshow -->
+				<div id="sliderbase">
+					<ul id="slider">
+						<div id="intro">
+							<h2>Hello!</h2>
+							<p>It's nice to meet you!</p>
+							<img id="introimg" src="images/woohoo.gif">
+						</div>
+						<div id="code">
+							
+						</div>
+						<div id="interest">
+							
+						</div>
+						<div id="anime">
+							<div id="animeset">
+								<div id="animeleft">
+									<div id="animeimg1"></div>
+								</div>
+								<div id="animeright">
+									<div id="animeimg2"></div>
+									<div id="animeimg3"></div>
+								</div>
+							</div>
+							<p>Current Anime: <span>Prince of Stride: Alternative</span></p>
+							<div id="animedrop">
+								<div id="animefav" class="dropdown">
+									<button class="dropbtn">Hover for My Favourite Anime!</button>
+									<div class="dropcontent">
+										<a href="#">Jojo's Bizarre Adventure</a>
+										<a href="#">Mob Psycho 100</a>
+										<a href="#">One Punch Man</a>
+										<a href="#">Ajin</a>
+										<a href="#">Danshi Koukousei no Nichijou</a>
+										<a href="#">Osomatsu-san</a>
+										<a href="#">Cromartie High School</a>
+										<a href="#">Hunter x Hunter</a>
+										<a href="#">Sakamoto Desu Ga</a>									
+									</div>
+								</div>
+								<div id="animenext" class="dropdown">
+									<button class="dropbtn">Hover for To Be Watched Anime!</button>
+									<div class="dropcontent">
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+									</div>
+								</div>
+								<div id="animegenre" class="dropdown">
+									<button class="dropbtn">Hover for My Favourite Genres!</button>
+									<div class="dropcontent">
+										<a href="#">Action</a>
+										<a href="#">Comedy</a>
+										<a href="#">Sports</a>
+										<a href="#">Mystery</a>
+										<a href="#">Horror</a>
+										<a href="#">Slice of Life</a>
+										<a href="#">Psychological</a>
+										<a href="#">temp</a>
+										<a href="#">temp</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="songs">
+							
+						</div>
+						<div id="games">
+							<div id="gameleft">
+								<div id="topscreen">
+									<div id="topgallery">
+										<div id="gameimg"></div>
+									</div>
+								</div>
+								<div id="bottomscreen">
+									<div id="bottomgallery">
+										<div id="gameimg2"></div>
+									</div>
+								</div>
+							</div>
+							<div id="gameright">
+								<div id="drop1" class="dropdown">
+									<button class="dropbtn">Hover for My Favourite Games!</button>
+									<div class="dropcontent">
+										<a href="#">Fire Emblem: Awakening</a>
+										<a href="#">Fire Emblem: Birthright</a>
+										<a href="#">Fire Emblem: Conquest</a>
+										<a href="#">Fire Emblem: Revelation</a>
+										<a href="#">Pokemon Conquest</a>
+										<a href="#">Pokemon HeartGold</a>
+										<a href="#">Pokemon Omega Ruby</a>
+									</div>
+								</div>
+								<div id="drop2" class="dropdown">
+									<button class="dropbtn">Hover for More Games I Own!</button>
+									<div class="dropcontent">
+										<a href="#">Pokemon Black</a>
+										<a href="#">Pokemon Black 2</a>
+										<a href="#">Pokemon Diamond</a>
+										<a href="#">Legend of Zelda: Phantom Hourglass</a>
+										<a href="#">Legend of Zelda: Spirit Tracks</a>
+										<a href="#">Shin Megami Tensei Devil Survivor</a>
+										<a href="#">Children of Mana</a>
+										<a href="#">Hamsterz Life</a>
+										<a href="#">Fire Emblem Echoes: Shadows of Valentia</a>
+										<a href="#">Pokemon Mystery Dungeon: Gates to Infinity</a>
+										<a href="#">Pokemon Super Mystery Dungeon</a>
+										<a href="#">Pokemon Sun</a>
+										<a href="#">Tomodachi Life</a>
+										<a href="#">Animal Crossing</a>
+									</div>
+								</div>
+							</div>
+							<div id="favchara">
+								<p>My Current Favourite Character:</p>
+								<p>FE: Awakening Gaius</p>
+								<img src="images/Games/gaius.png">
+							</div>
+						</div>
+					</ul>
+					<div id="slidernav">
+						<span id=""></span>
+						<ul>
+							<li><a id="profilebtn" href="#0">Profile</a></li>
+							<li><a id="codebtn" href="#0">Coding</a></li>
+							<li><a id="interestbtn" href="#0">Interest</a></li>
+							<li><a id="animebtn" href="#0">Anime</a></li>
+							<li><a id="songsbtn" href="#0">Music</a></li>
+							<li><a id="gamesbtn" href="#0">Games</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div id="art">
+				<h1>Doodles</h1>
+				<p>Just some images of my artwork. It's just a little gallery for you look through if you're interested.</p>
+				<div id="gallery">
+					<button id="previous" class="fa fa-chevron-left"></button>
+					<div id="img"></div>
+					<button id="next" class="fa fa-chevron-right"></button>
+				</div>
+			</div>
+			<div id="games">
+				<h1>Works in Progress</h1>
+			</div>
+			<div id="resume">
+				<h1>Resume</h1>
+			</div>-->
+		</div>
+		<footer id="copyright">
+			<!--Copyright and such go here-->
+			<p>Copyright © 2015-2017 Neenee Ngo. All rights reserved.</p>
+			<hr noshade/>
+			<p>Design: by Neenee Ngo</p>
+		</footer>
+	</body>
+</html>
 		<div id="nav">
 			<!--list of tabs-->
 			<ul>

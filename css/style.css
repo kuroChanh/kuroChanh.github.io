@@ -252,24 +252,61 @@ img {
 	margin-left: 5%;
 	margin-right: 10%;
 }
+/*anime section*/
 #anime{
 	display: none;
+	width: 100%;
 }
 #animeset{
-	padding: 10px;
+	width: 100%;
+	height: 300px;
+}
+#animeleft{
+	float: left;
+	width: 50%;
+	height: 100%;
 }
 #animeimg1{
-	width: 50%;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/CurrentAnime/stride1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 135%;
 }
-/*#anime #animetext{
-	z-index: 2;
-	position: absolute;
-	color: #FFFFFF;
-	text-shadow: 0 0 2px #000000;
-	padding-top: 140px;
-	margin-left: 23%;
-	margin-right: 23%;
-}*/
+#animeright{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+#animeimg2, #animeimg3{
+	width: 100%;
+	height: 50%;
+}
+#animeimg2{
+	background-image: url("../images/CurrentAnime/stride2.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#animeimg3{
+	background-image: url("../images/CurrentAnime/stride3.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#anime p{
+	padding-top: 10px;
+}
+#anime span{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+}
+#animedrop{
+	padding-top: 10px;
+	padding-left: 17.3%;
+}
+/*song section*/
 #songs{
 	display: none;
 }
