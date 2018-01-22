@@ -41,15 +41,56 @@
 	background-position: center;
 	background-size: 100%;
 }
-#anime p{
-	padding-top: 10px;
+#animebottom{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	float: right;
 }
-#anime span{
-	font-weight: bold;
-	text-decoration: underline;
-	font-size: 14px;
+#top{
+	width: 100%;
+	height: 100%;
 }
-#animedrop{
+#img1{
+	background-image: url("../images/CurrentAnime/oso.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container{
+	width: 25%;
+	height: 70%;
+	padding: 10px;
+	margin: 0;
+}
+.image{
+	width: 100%;
+	height: 100%;
+	transition: 0.5s ease;
+}
+.overlay{
+	background-color: #008CBA;
+	width: 100%;
+	height: 0%;
+	z-index: 2;
+}
+.container:hover .overlay{
+	height: 25%;
+	transition: 0.5s ease;
+}
+.container:hover .image{
+	height: 75%;
+	transition: 0.5s ease;
+}
+.text{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+/*#animedrop{
 	padding-top: 10px;
 	padding-left: 17.3%;
-}
+}*/
