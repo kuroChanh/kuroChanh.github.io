@@ -9,8 +9,10 @@
 		<link rel="icon" type="image/icon" href="images/profileimg.ico"/>
 		<!--link to the font awesome file-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<!--other files-->
+		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/anime.css"/>
+		<!--javascript-->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 		<script type="text/javascript" src="js/music.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
@@ -23,9 +25,8 @@
 			<ul>
 				<li><a id="home">Home</a></li>
 				<li><a name="about" class="mainnav">About</a></li>
-				<!-- <li><a name="art" class="mainnav">Artwork</a></li>
-				<li><a name="projects" class="mainnav">Game Works</a></li>
-				<li><a name="resume" class="mainnav">Resume</a></li> -->
+				<li><a name="art" class="mainnav">Artwork</a></li>
+				<li><a name="projects" class="mainnav">Portfolio</a></li>
 			</ul>
 		</div>
 		<div id="coverimg"></div>
@@ -52,9 +53,9 @@
 				</audio>
 				<hr/>
 				<!--Profile Info-->
-				<p>Game Programming Student at Humber College</p>
-				<p>Peer Tutor at Humber College</p>
-				<p>Playing Fire Emblem Awakening</p>
+				<p><b>Game Programming Student</b> at Humber College</p>
+				<p><b>Current Work:</b> Peer Tutor at Humber College</p>
+				<p><b>Currently Playing:</b> Papers, Please</p>
 				<hr/>
 				<p>Email: tuyetnhi@hotmail.ca</p>
 				<p>Discord: kuroChanh #1715</p>
@@ -62,9 +63,10 @@
 				<!--Contact-->
 				<!--Change icon links to text links with the icon on the side-->
 				<div id="contact">
-					<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fa fa-twitter fa"></a>
-					<a href="https://kurochanh.wordpress.com" id="wordpressicon" class="fa fa-wordpress fa"></a>
-					<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo-475aa5105/" id="linkedinicon" class="fa fa-linkedin-square"></a>
+					<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fa fa-twitter"></a>
+					<!-- <a href="https://kurochanh.wordpress.com" id="wordpressicon" class="fa fa-wordpress"></a> -->
+					<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo" id="linkedinicon" class="fa fa-linkedin"></a>
+					<a href="https://www.twitch.tv/kurochanh" id="twitchicon" class="fa fa-twitch"></a>
 				</div>
 			</div>
 		</div>
@@ -75,43 +77,64 @@
 				<div id="sliderbase">
 					<ul id="slider">
 						<div id="intro">
-							<h2>Hello!</h2>
-							<p>It's nice to meet you!</p>
-							<img id="introimg" src="images/woohoo.gif">
+							<div id="introTop">
+								<div id="profileChara">
+									<img src="images/sheeb.jpg">
+								</div>
+								<div id="stats">
+									<h4>My Stats</h4>
+									<p>Strength: <progress value="80" max="100"></progress></p>
+									<p>Stamina: <progress value="60" max="100"></progress></p>
+									<p>Agility: <progress value="80" max="100"></progress></p>
+									<p>Charisma: <progress value="80" max="100"></progress></p> 
+									<p>Perception: <progress value="100" max="100"></progress></p>
+									<p>Luck: <progress value="80" max="100"></progress></p>
+									<footer>*Stats measure from 0 - 100</footer>
+								</div>
+							</div>
 						</div>
 						<div id="code">
-							
+							<div id="codelang" class="dropdown">
+								<button class="dropbtn">Coding Languages that I know</button>
+								<div class="dropcontent">
+									<a href="#">C++</a>
+									<a href="#">HTML/CSS/JS</a>
+									<a href="#">C#</a>									
+								</div>
+							</div>
 						</div>
 						<div id="interest">
 							
 						</div>
+						<!--CURRENT DIV-->
 						<div id="anime">
-							<div id="animeset">
-								<div id="animeleft">
-									<div id="animeimg1"></div>
-								</div>
-								<div id="animeright">
-									<div id="animeimg2"></div>
-									<div id="animeimg3"></div>
+							<div id="animeleft">
+								<div id="animeimg1"></div>
+								<div id="animeimg2"></div>
+								<div id="animeimg3"></div>
+							</div>
+							<div id="animeright">
+								<div id="title" title="Current Anime I'm Watching"></div>
+								<div id="bottom">
+									
 								</div>
 							</div>
-							<p>Currently Watching: <span>Prince of Stride: Alternative</span></p>
 							<div id="animedrop">
-								<div id="animefav" class="dropdown">
+								<!--<div id="animefav" class="dropdown">
 									<button class="dropbtn">Hover for My Favourite Anime!</button>
 									<div class="dropcontent">
-										<a href="#">Jojo's Bizarre Adventure</a>
-										<a href="#">Mob Psycho 100</a>
-										<a href="#">One Punch Man</a>
-										<a href="#">Ajin</a>
-										<a href="#">Danshi Koukousei no Nichijou</a>
-										<a href="#">Osomatsu-san</a>
-										<a href="#">Cromartie High School</a>
-										<a href="#">Hunter x Hunter</a>
-										<a href="#">Sakamoto Desu Ga</a>									
+										<p>Jojo's Bizarre Adventure</p>
+										<p>Osomatsu-san</p>
+										<p>Mob Psycho 100</p>
+										<p>One Punch Man</p>
+										<p>Ajin</p>
+										<p>Danshi Koukousei no Nichijou</p>
+										<p>Cromartie High School</p>
+										<p>Hunter x Hunter</p>
+										<p>Sakamoto Desu Ga</p>									
 									</div>
 								</div>
-								<div id="animenext" class="dropdown">
+								 <div id="animenext" class="dropdown">
 									<button class="dropbtn">Hover for To Be Watched Anime!</button>
 									<div class="dropcontent">
 										<a href="#">temp</a>
@@ -138,7 +161,7 @@
 										<a href="#">temp</a>
 										<a href="#">temp</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div id="songs">
@@ -186,14 +209,24 @@
 										<a href="#">Pokemon Super Mystery Dungeon</a>
 										<a href="#">Pokemon Sun</a>
 										<a href="#">Tomodachi Life</a>
-										<a href="#">Animal Crossing</a>
+										<a href="#">Animal Crossing: New Leaf</a>
 									</div>
 								</div>
 							</div>
-							<div id="favchara">
+							<div id="favchara"> <!--Fix this part of the website to something better looking ;w; -->
 								<p>My Current Favourite Character:</p>
 								<p>FE: Awakening Gaius</p>
 								<img src="images/Games/gaius.png">
+							</div>
+						</div>
+						<div id="oc">
+							<div id="ocset1" class="dropdown">
+								<button class="dropbtn">OC (1-50)</button>
+								<div class="dropcontent">
+									<a href="#">001</a>
+									<a href="#">002</a>
+									<a href="#">003</a>									
+								</div>
 							</div>
 						</div>
 					</ul>
@@ -202,10 +235,11 @@
 						<ul>
 							<li><a id="profilebtn" href="#0">Profile</a></li>
 							<li><a id="codebtn" href="#0">Coding</a></li>
-							<li><a id="interestbtn" href="#0">Interest</a></li>
+							<li><a id="interestbtn" href="#0">Interests</a></li>
 							<li><a id="animebtn" href="#0">Anime</a></li>
 							<li><a id="songsbtn" href="#0">Music</a></li>
 							<li><a id="gamesbtn" href="#0">Games</a></li>
+							<li><a id="ocbtn" href="#0">Characters</a></li>
 						</ul>
 					</div>
 				</div>

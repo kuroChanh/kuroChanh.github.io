@@ -1,0 +1,109 @@
+TEMP
+/*about slider base*/
+#sliderbase {
+	width: 100%;
+	height: 590px;
+}
+#slider {
+	height: 540px;
+	position: relative;
+	overflow: hidden;
+}
+#slider li {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: translateX(100%);
+}
+#slider li.selected {
+	position: relative;
+	transform: translateX(0);
+}
+#slider li.move-left {
+	transform: translateX(-100%);
+}
+#slider li.is-moving, #slider li.selected {
+	transition: transform 0.5s;
+} 
+/*slider details*/
+#slider li {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*slider navbar*/
+#slidernav {
+	width: 100%;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+#slidernav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+#slidernav a:hover {
+	background-color: #443a45;
+	transition: all .2s;
+}
+#slidernav ul {
+	display: inline-block;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#slidernav li {
+	float: left;
+}
+
+<!-- about slideshow -->
+				<div id="sliderbase">
+					<ul id="slider">
+						<li class="selected">
+							<div id="fullwidth">
+								<h2>Introduction</h2>
+								<p>Bruh</p>
+							</div>
+						</li>
+						<li>
+							<div id="fullwidth">
+								<h2>Coding Background</h2>
+								<p>What I'm learning</p>
+							</div>
+						</li>
+						<li>
+							<div id="halfwidth">
+								<h2>My Favourite Foods!</h2>
+								<p>It's all mine</p>
+							</div>
+						</li>
+						<li>
+							<div id="halflwidth">
+								<h2>Anime/Manga I'm viewing</h2>
+								<p>Check these out!</p>
+							</div>
+						</li>
+						<li>
+							<div id="halfwidth">
+								<h2>Music</h2>
+								<p>Here's what I listen to</p>
+							</div>
+						</li>
+					</ul>
+					<div id="slidernav">
+						<span id=""></span>
+						<ul>
+							<li class="selected"><a href="#0">Intro</a></li>
+							<li><a href="#0">Coding</a></li>
+							<li><a href="#0">Food</a></li>
+							<li><a href="#0">Anime</a></li>
+							<li><a href="#0">Music</a></li>
+						</ul>
+					</div>
+				</div>

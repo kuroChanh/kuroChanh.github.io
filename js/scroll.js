@@ -4,7 +4,7 @@ $(document).ready(function() {
 		var aName = event.target.name;
 		//gets the name from the a tags
 		$('html, body').animate({
-			scrollTop: $("#" + aName).offset().top - 43
+			scrollTop: $("#" + aName).offset().top - 42
 		}, 900);
 	});
 	$('#home').click(function(event){

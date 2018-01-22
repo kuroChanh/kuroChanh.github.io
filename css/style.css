@@ -1,4 +1,4 @@
-body,a , p, ul, html, div{
+body, a, p, ul, html, div{
 	padding: 0;
 	margin: 0;
 }
@@ -117,7 +117,7 @@ img {
 	text-align: left;
 	margin-left: 10%;
 }
-#twittericon, #wordpressicon, #linkedinicon {
+#twittericon, #wordpressicon, #linkedinicon, #twitchicon {
 	background: #000000;
 	border-radius: 5px;
 	padding: 5px;
@@ -190,7 +190,8 @@ img {
 	margin-top: -3px;
 }
 #main h1, h2, p{
-	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 /*MAIN SECTIONS*/
 /*#art, #games{
@@ -206,33 +207,39 @@ img {
 }
 /*slider details*/
 #intro{
-	padding-top: 140px;
-	/*display: none;*/
-}
-#intro #introimg{
-	background-repeat: no-repeat;
-	margin-top: 20px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
+#intro #profileChara{
+	margin: 0;
+	float: left;
+	width: 40%;
+}
+#info{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 57%;
+	padding-right: 3%;
+}
+#intro h3{
+	margin: 0;
+	padding-top: 20px;
+}
+#intro ul{
+	list-style: square;
+}
+#stats{
+	float: left;
+	width: 33%;
+}
+#stats progress{
+	float: right;
+}
+
+/*CODE SECTION*/
 #code{
 	padding-top: 160px;
 	display: none;
-}
-#code #codeimg{
-	display: block;
-	float: right;
-	width: 300px;
-	margin-left: 5%;
-	margin-right: 10%;
-	padding-top: 25px;
-}
-#code #codetext{
-	display: inline-block;
-	float: left;
-	margin-left: 10%;
-	margin-right: 5%;
 }
 #interest{
 	padding-top: 160px;
@@ -251,60 +258,6 @@ img {
 	float: right;
 	margin-left: 5%;
 	margin-right: 10%;
-}
-/*anime section*/
-#anime{
-	display: none;
-	width: 100%;
-}
-#animeset{
-	width: 100%;
-	height: 200px;
-}
-#animeleft{
-	float: left;
-	width: 50%;
-	height: 100%;
-}
-#animeimg1{
-	width: 100%;
-	height: 100%;
-	background-image: url("../images/CurrentAnime/stride1.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 135%;
-}
-#animeright{
-	float: right;
-	width: 50%;
-	height: 100%;
-}
-#animeimg2, #animeimg3{
-	width: 100%;
-	height: 50%;
-}
-#animeimg2{
-	background-image: url("../images/CurrentAnime/stride2.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#animeimg3{
-	background-image: url("../images/CurrentAnime/stride3.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-}
-#anime p{
-	padding-top: 10px;
-}
-#anime span{
-	font-weight: bold;
-	text-decoration: underline;
-	font-size: 14px;
-}
-#animedrop{
-	padding-top: 10px;
-	padding-left: 17.3%;
 }
 /*song section*/
 #songs{
@@ -404,13 +357,14 @@ img {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
-.dropcontent a{
+.dropcontent p{
+	font-size: 10px;
 	color: black;
 	padding: 5px 16px;
 	text-decoration: none;
 	display: block;
 }
-.dropcontent a:hover{
+.dropcontent p:hover{
 	background-color: #f1f1f1;
 }
 .dropdown:hover .dropcontent{
@@ -495,6 +449,10 @@ img {
 /*GAME WORKS SECTION*/
 #games {
 	padding-bottom: 5%;
+}
+/*CHARACTER SECTION*/
+#oc{
+	display: none;
 }
 /*COPYRIGHT INFO*/
 footer {

@@ -1,0 +1,55 @@
+#anime{
+	display: none;
+	width: 100%;
+	height: 250px;
+}
+#animeleft{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+#animeimg1, #animeimg2, #animeimg3{
+	width: 100%;
+	height: 78%;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+}
+#animeimg1{
+	background-image: url("../images/CurrentAnime/pte1.gif");
+}
+#animeimg2{
+	background-image: url("../images/CurrentAnime/pte2.gif");
+}
+#animeimg3{
+	background-image: url("../images/CurrentAnime/pte3.gif");
+}
+#animeright{
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+#title{
+	background-image: url("../images/CurrentAnime/ptetitle.jpg");
+	width: 100%;
+	height: 78%;
+	padding: 0;
+	margin: 0;
+	float: right;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#anime p{
+	padding-top: 10px;
+}
+#anime span{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+}
+#animedrop{
+	padding-top: 10px;
+	padding-left: 17.3%;
+}
