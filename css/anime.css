@@ -25,14 +25,9 @@
 #animeimg3{
 	background-image: url("../images/CurrentAnime/pte3.gif");
 }
-#animeright{
-	float: right;
-	width: 60%;
-	height: 100%;
-}
 #title{
 	background-image: url("../images/CurrentAnime/ptetitle.jpg");
-	width: 100%;
+	width: 60%;
 	height: 78%;
 	padding: 0;
 	margin: 0;
@@ -44,7 +39,7 @@
 #animebottom{
 	padding: 0;
 	margin: 0;
-	width: 100%;
+	width: 60%;
 	height: 100%;
 	float: right;
 }
@@ -62,12 +57,24 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+#img3{
+	background-image: url("../images/CurrentAnime/josuke.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#img4{
+	background-image: url("../images/CurrentAnime/josuke.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 .container{
 	padding: 1.75%;
+	padding-right: 0;
 	margin: 0;
-	width: 25%;
+	width: 22.75%;
 	height: 70%;
+	float: left;
 }
 .image{
 	width: 100%;
@@ -75,10 +82,12 @@
 	transition: 0.5s ease;
 }
 .overlay{
+	padding: 0;
 	background-color: #008CBA;
 	width: 100%;
 	height: 0%;
 	transition: 0.5s ease;
+	overflow: hidden;
 }
 .container:hover .overlay{
 	height: 15%;
