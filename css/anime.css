@@ -56,16 +56,43 @@
 	background-image: url("../images/CurrentAnime/josuke.gif");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 275%;
 }
 #img3{
-	background-image: url("../images/CurrentAnime/josuke.gif");
+	background-image: url("../images/CurrentAnime/mob.gif");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 275%;
 }
 #img4{
-	background-image: url("../images/CurrentAnime/josuke.gif");
+	background-image: url("../images/CurrentAnime/ajin.gif");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 240%;
+}
+#img5{
+	background-image: url("../images/CurrentAnime/daily.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 250%;
+}
+#img6{
+	background-image: url("../images/CurrentAnime/cro.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 235%;
+}
+#img7{
+	background-image: url("../images/CurrentAnime/gon.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img8{
+	background-image: url("../images/CurrentAnime/saka.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
 }
 
 .container{
@@ -83,7 +110,7 @@
 }
 .overlay{
 	padding: 0;
-	background-color: #008CBA;
+	background-color: #3e6cb7;
 	width: 100%;
 	height: 0%;
 	transition: 0.5s ease;
