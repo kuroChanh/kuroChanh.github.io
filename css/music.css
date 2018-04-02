@@ -1,0 +1,127 @@
+#songs{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+#songtop{
+	width: 100%;
+	height: 30%;
+}
+#albumCover{
+	background-image: url("../images/Music/album.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+	float: left;
+}
+#albumlist{
+	width: 6%;
+	/*opacity: 0.0;*/
+	float: right;
+}
+#albumlist p{
+	font-size: 15px;
+	text-align: center;
+}
+#songtop:hover #albumCover{
+	width: 50%;
+	background-size: 37%;
+	transition: 0.5s ease;
+}
+#songtop:hover #albumlist{
+	width: 50%;
+	opacity: 1.0;
+	transition: all 0.5s ease;
+}
+#songmid{
+	width: 100%;
+	height: 35%;
+}
+#member1{
+	background-image: url("../images/Music/ukwon.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-size: 98%;
+}
+#member2{
+	background-image: url("../images/Music/bbomb.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 110%;
+}
+#member3{
+	background-image: url("../images/Music/zico.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+	background-size: 120%;
+}
+#member4{
+	background-image: url("../images/Music/po.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 69%;
+	background-size: 220%;
+}
+#member5{
+	background-image: url("../images/Music/taeil.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 71%;
+	background-size: 220%;
+}
+#member6{
+	background-image: url("../images/Music/kyung.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 53%;
+	background-size: 220%;
+}
+#member7{
+	background-image: url("../images/Music/jaehyo.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 63%;
+	background-size: 190%;
+}
+
+.container2{
+	padding: 1.75%;
+	padding-right: 0;
+	margin: 0;
+	width: 12.25%;
+	height: 70%;
+	float: left;
+}
+.image{
+	width: 100%;
+	height: 100%;
+	transition: 0.5s ease;
+}
+.overlay{
+	padding: 0;
+	background-color: #3e6cb7;
+	width: 100%;
+	height: 0%;
+	transition: 0.5s ease;
+	overflow: hidden;
+}
+.container2:hover .overlay{
+	height: 15%;
+	transition: 0.5s ease;
+}
+.container2:hover .image{
+	height: 85%;
+	transition: 0.5s ease;
+}
+.text{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
+/*#tempImage{
+	background-image: url("../images/temp.png");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+}*/
