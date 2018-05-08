@@ -30,10 +30,24 @@
 #dsPack{
 	animation: pop 3s linear infinite;
 }
+#mobileGame{
+	animation: push 3s linear infinite;
+}
+#laptopGame{
+	animation: push 3s linear infinite;
+	background-size: 50%;
+}
 @keyframes pop{
 	60% {transform: scale(1.0);}
   	70% {transform: scale(1.1);}
   	80% {transform: scale(1.0);}
+}
+@keyframes push{
+	0% {transform: scale(1.1);}
+	60% {transform: scale(1.1);}
+  	70% {transform: scale(1.0);}
+  	80% {transform: scale(1.1);}
+  	100% {transform: scale(1.1);}
 }
 #dsGallery{
 	background-image: url(" ");
@@ -76,10 +90,10 @@
 	background-image: url("../images/Games/3dsPack.png");
 }
 #mobileGame{
-
+	background-image: url("../images/Games/touch.png");
 }
 #laptopGame{
-
+	background-image: url("../images/Games/cursor.png");
 }
 #gameBot{
 
