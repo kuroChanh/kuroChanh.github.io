@@ -1,0 +1,90 @@
+#games{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.gameSection{
+	width: 100%;
+	height: 33%;
+}
+#gameTop{
+	
+}
+.gameImg{
+	float: left;
+	width: 21%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200%;
+}
+#ps4Gallery{
+	background-image: url("../images/Games/gameCover.png");
+}
+#dsGallery{
+	background-image: url("../images/Games/gameCover.png");
+}
+#mobileGallery{
+	background-image: url("../images/Games/gameCover.png");
+}
+#laptopGallery{
+	background-image: url("../images/Games/gameCover.png");
+}
+#gameMid{
+
+}
+.gameTitle{
+	float: left;
+	width: 21%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.gameCover{
+	width: 50%;
+	height: 50%;
+	padding-top: 20%;
+	padding-bottom: 2%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.gameTitle p{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+#ps4Disc{
+	background-image: url("../images/Games/ps4Disc.png");
+}
+#dsPack{
+	background-image: url("../images/Games/3dsPack.png");
+}
+#mobileGame{
+
+}
+#laptopGame{
+
+}
+#gameBot{
+
+}
+#ps4Console{
+	background-image: url("../images/Games/ps4.png");
+	background-size: 100%;
+}
+#dsConsole{
+	background-image: url("../images/Games/3ds.png");
+	background-size: 100%;
+}
+#mobileConsole{
+	background-image: url("../images/Games/mobile.png");
+	background-size: 40%;
+}
+#laptopConsole{
+	background-image: url("../images/Games/laptop.png");
+	background-size: 100%;
+}

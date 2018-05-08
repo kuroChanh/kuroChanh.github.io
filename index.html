@@ -11,17 +11,14 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-
 		<link rel="stylesheet" type="text/css" href="css/anime.css"/>
 		<link rel="stylesheet" type="text/css" href="css/music.css"/>
-
-
+		<link rel="stylesheet" type="text/css" href="css/games.css"/>
 		<!--javascript-->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 		<script type="text/javascript" src="js/music.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
-		<script type="text/javascript" src="js/gallery.js"></script>
+		<!-- <script type="text/javascript" src="js/gallery.js"></script> -->
 		<script type="text/javascript" src="js/slider.js"></script>
 	</head>
 	<body>
@@ -75,25 +72,16 @@
 				</div>
 			</div>
 		</div>
-		<img id="sideimg"/>
 		<div id="main">
 			<div id="about">
 				<!-- about slideshow -->
 				<div id="sliderbase">
 					<ul id="slider">
 						<div id="intro">
-							<div id="introTop">
-								<div id="profileChara">
-									<img src="images/sheeb.jpg">
-									<p>[Site in Progress]</p>
-								</div>
-							</div>
-						</div>
-						<div id="code">
-							<p>[In progress]</p>
+
 						</div>
 						<div id="interest">
-							<p>[In progress]</p>
+
 						</div>
 						<!--anime section done-->
 						<div id="anime">
@@ -155,39 +143,12 @@
 									</div>
 								</div>
 							</div>
-							<!-- dropdown example -->
-							<!--<div id="animedrop">
-								<div id="animefav" class="dropdown">
-									<button class="dropbtn">Hover for My Favourite Anime!</button>
-									<div class="dropcontent">
-										<p>Jojo's Bizarre Adventure</p>
-										<p>Osomatsu-san</p>
-										<p>Mob Psycho 100</p>
-										<p>One Punch Man</p>
-										<p>Ajin</p>
-										<p>Danshi Koukousei no Nichijou</p>
-										<p>Cromartie High School</p>
-										<p>Hunter x Hunter</p>
-										<p>Sakamoto Desu Ga</p>									
-									</div>
-								</div>
-							</div> -->
 						</div>
 						<!-- current div -->
 						<div id="songs">
 							<!-- <div id="tempImage"></div> -->
 							<div id="songtop">
 								<div id="albumCover"></div>
-								<!-- <div id="albumlist">
-									<p>Don't Leave - Block B</p>
-									<p>At Last - Jaehyo Solo</p>
-									<p>Everythin' - U-Kwon Solo</p>
-									<p>My Zone - Block B</p>
-									<p>Shall We Dance - Block B</p>
-									<p>One Way - Block B</p>
-									<p>Like This - Vocal Unit</p>
-									<p>Give & Take - B-Bomb Solo</p>
-								</div> -->
 							</div>
 							<div id="songmid">
 								<div class="container2">
@@ -238,91 +199,51 @@
 							</div>
 						</div>
 						<div id="games">
-							<div id="gameleft">
-								<div id="topscreen">
-									<div id="topgallery">
-										<div id="gameimg"></div>
-									</div>
+							<div id="gameTop" class="gameSection">
+								<div id="ps4Gallery" class="gameImg"></div>
+								<div id="dsGallery" class="gameImg"></div>
+								<div id="mobileGallery" class="gameImg"></div>
+								<div id="laptopGallery" class="gameImg"></div>
+							</div>
+							<div id="gameMid" class="gameSection">
+								<div class="gameTitle">
+									<div id="ps4Disc" class="gameCover"></div>
+									<p>PS4 Game Title</p>
 								</div>
-								<div id="bottomscreen">
-									<div id="bottomgallery">
-										<div id="gameimg2"></div>
-									</div>
+								<div class="gameTitle">
+									<div id="dsPack" class="gameCover"></div>
+									<p>3DS Game Title</p>
+								</div>
+								<div class="gameTitle">
+									<div id="mobileGame" class="gameCover"></div>
+									<p>Mobile Game Title</p>
+								</div>
+								<div class="gameTitle">
+									<div id="laptopGame" class="gameCover"></div>
+									<p>PC Game Title</p>
 								</div>
 							</div>
-							<div id="gameright">
-								<div id="drop1" class="dropdown">
-									<button class="dropbtn">Hover for My Favourite Games!</button>
-									<div class="dropcontent">
-										<a href="#">Fire Emblem: Awakening</a>
-										<a href="#">Fire Emblem: Birthright</a>
-										<a href="#">Fire Emblem: Conquest</a>
-										<a href="#">Fire Emblem: Revelation</a>
-										<a href="#">Pokemon Conquest</a>
-										<a href="#">Pokemon HeartGold</a>
-										<a href="#">Pokemon Omega Ruby</a>
-									</div>
-								</div>
-								<div id="drop2" class="dropdown">
-									<button class="dropbtn">Hover for More Games I Own!</button>
-									<div class="dropcontent">
-										<a href="#">Pokemon Black</a>
-										<a href="#">Pokemon Black 2</a>
-										<a href="#">Pokemon Diamond</a>
-										<a href="#">Legend of Zelda: Phantom Hourglass</a>
-										<a href="#">Legend of Zelda: Spirit Tracks</a>
-										<a href="#">Shin Megami Tensei Devil Survivor</a>
-										<a href="#">Children of Mana</a>
-										<a href="#">Hamsterz Life</a>
-										<a href="#">Fire Emblem Echoes: Shadows of Valentia</a>
-										<a href="#">Pokemon Mystery Dungeon: Gates to Infinity</a>
-										<a href="#">Pokemon Super Mystery Dungeon</a>
-										<a href="#">Pokemon Sun</a>
-										<a href="#">Tomodachi Life</a>
-										<a href="#">Animal Crossing: New Leaf</a>
-									</div>
-								</div>
+							<div id="gameBot" class="gameSection">
+								<div id="ps4Console" class="gameImg"></div>
+								<div id="dsConsole" class="gameImg"></div>
+								<div id="mobileConsole" class="gameImg"></div>
+								<div id="laptopConsole" class="gameImg"></div>
 							</div>
-							<div id="favchara"> <!--Fix this part of the website to something better looking ;w; -->
-								<p>My Current Favourite Character:</p>
-								<p>FE: Awakening Gaius</p>
-								<img src="images/Games/gaius.png">
-								<p>[In progress]</p>
-							</div>
-						</div>
-						<div id="oc">
-							<p>[In progress]</p>
 						</div>
 					</ul>
+					<!--Bottom Slider Sections-->
 					<div id="slidernav">
 						<span id=""></span>
 						<ul>
 							<li><a id="profilebtn" href="#0">Profile</a></li>
-							<li><a id="codebtn" href="#0">Coding</a></li>
 							<li><a id="interestbtn" href="#0">Interests</a></li>
 							<li><a id="animebtn" href="#0">Anime</a></li>
 							<li><a id="songsbtn" href="#0">Music</a></li>
 							<li><a id="gamesbtn" href="#0">Games</a></li>
-							<li><a id="ocbtn" href="#0">Characters</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<!-- <div id="art">
-				<h1>Doodles</h1>
-				<p>Just some images of my artwork. It's just a little gallery for you look through if you're interested.</p>
-				<div id="gallery">
-					<button id="previous" class="fa fa-chevron-left"></button>
-					<div id="img"></div>
-					<button id="next" class="fa fa-chevron-right"></button>
-				</div>
-			</div>
-			<div id="games">
-				<h1>Works in Progress</h1>
-			</div>
-			<div id="resume">
-				<h1>Resume</h1>
-			</div>-->
 		</div>
 		<footer id="copyright">
 			<!--Copyright and such go here-->
