@@ -201,9 +201,10 @@ img {
 /*ABOUT SECTION*/
 /*about slider base*/
 #slider {
-	list-style-type: none;
+	/*list-style-type: none;*/
 	width: 100%;
-	height: 585px;
+	/*height: 585px;*/
+	height: 88.3vh;
 }
 /*intro*/
 #intro{
