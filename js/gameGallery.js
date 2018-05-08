@@ -4,9 +4,6 @@ $(document).ready(function(){
 	var dsCol = document.getElementById('dsGallery');
 	var mobCol = document.getElementById('mobileGallery');
 	var pcCol = document.getElementById('laptopGallery');
-	//game
-	var disc = document.getElementById('ps4Disc');
-	var cartridge = document.getElementById('dsPack');
 	//titles
 	var ps4Title = document.getElementById('ps4Title');
 	var dsTitle = document.getElementById('dsTitle');

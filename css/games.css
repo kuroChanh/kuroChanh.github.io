@@ -25,11 +25,15 @@
 	background-image: url(" ");
 }
 #ps4Disc{
-	animation: spin 3s linear infinite;
+	animation: pop 3s linear infinite;
 }
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+#dsPack{
+	animation: pop 3s linear infinite;
+}
+@keyframes pop{
+	60% {transform: scale(1.0);}
+  	70% {transform: scale(1.1);}
+  	80% {transform: scale(1.0);}
 }
 #dsGallery{
 	background-image: url(" ");
