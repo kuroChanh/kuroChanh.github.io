@@ -55,7 +55,7 @@ h1 {
 	background-image: url("../images/coverimg22.jpg");
 	width: 100%;
 	/*equal the height of the screen*/
-	height: 100vh;
+	height: 100vmax;
 	/*image is centered when window changes width*/
 	background-repeat: no-repeat;
 	background-position: center top;
