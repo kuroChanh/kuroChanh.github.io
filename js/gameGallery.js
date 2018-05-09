@@ -12,10 +12,10 @@ $(document).ready(function(){
 	//image arrays
 	var ps4Gallery = ['nier.jpg', 'type0.jpg'];
 	var ps4Titles = ['Nier: Automata', 'Final Fantasy: Type-0'];
-	var dsGallery = ['bravely.jpg', 'fates.jpg'];
-	var dsTitles = ['Bravely Default: Second', 'Fire Emblem: Fates'];	
-	var mobGallery = ['gameCover.png', 'granblue.jpg'];
-	var mobTitles = ['Fire Emblem: Heroes', 'Granblue Fantasy'];
+	var dsGallery = ['bravely.jpg', 'fates.jpg', 'heartgold.jpg', 'gameCover.png', 'hourglass.jpg', 'conquest.jpg', 'acpc.jpg', 'avalon.jpg'];
+	var dsTitles = ['Bravely Default: Second', 'Fire Emblem: Fates', 'Pokemon: Heartgold', 'Fire Emblem: Awakening', 'Legend of Zelda: Phantom Hourglass', 'Pokemon Conquest', 'Animal Crossing: New Leaf', 'Avalon Code'];	
+	var mobGallery = ['gameCover.png', 'granblue.jpg', 'acpc.png'];
+	var mobTitles = ['Fire Emblem: Heroes', 'Granblue Fantasy', 'Animal Crossing: Pocket Edition'];
 	var pcGallery = ['payday.jpg', 'papers.jpg'];
 	var pcTitles = ['Payday 2', 'Papers, Please'];
 	//image counters
