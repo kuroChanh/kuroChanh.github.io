@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
 		<link rel="stylesheet" type="text/css" href="css/anime.css"/>
 		<link rel="stylesheet" type="text/css" href="css/music.css"/>
 		<link rel="stylesheet" type="text/css" href="css/games.css"/>
@@ -20,6 +21,7 @@
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 		<script type="text/javascript" src="js/gameGallery.js"></script>
+		<script type="text/javascript" src="js/clip.js"></script>
 	</head>
 	<body>
 		<div id="nav">
@@ -50,12 +52,12 @@
 				</div>
 				<!-- starting song -->
 				<audio id="audio" preload="true">
-					<source src="audio/It Was Love.mp3"/>
+					<source src="audio/Shall We Dance.mp3"/>
 				</audio>
 				<hr/>
 				<!--Profile Info-->
 				<p><b>Game Programming Student:</b> at Humber College</p>
-				<p><b>Current Work:</b> Peer Tutor at Humber College</p>
+				<p><b>Current Work:</b> Looking for Work</p>
 				<p><b>Currently Playing:</b> Papers, Please</p>
 				<hr/>
 				<p>Discord: kuroChanh #1715</p>
@@ -74,10 +76,28 @@
 				<div id="sliderbase">
 					<ul id="slider">
 						<div id="intro">
+							<div id="profilePic"></div>
+							<div id="profileContent">
+								<p>My hobby is&nbsp;</p>
+								<div id="changeSize">
+									<span id="changeHobby"></span>
+								</div>
 
-						</div>
-						<div id="interest">
-
+								<!-- <p>Favourites</p>
+									<ul>
+										<li>Animals</li>
+											<li id="li2">Shiba</li>
+											<li id="li2">Alpaca</li>
+										<li>Sports</li>
+											<li id="li2">Soccer</li>
+											<li id="li2">Badminton</li>
+										<li>Food</li>
+											<li id="li2">Vietnamese Curry</li>
+											<li id="li2">Katusdon</li>
+											<li id="li2">Hot pot</li>
+									</ul>
+								<p>Goals</p> -->
+							</div>
 						</div>
 						<!--anime section done-->
 						<div id="anime">
@@ -144,9 +164,6 @@
 						<div id="songs">
 							<!-- <div id="tempImage"></div> -->
 							<div id="songtop">
-								<div id="albumCover"></div>
-							</div>
-							<div id="songmid">
 								<div class="container2">
 									<div id="member1" title="Role" class="image"></div>
 									<div class="overlay">
@@ -190,6 +207,9 @@
 									</div>
 								</div>
 							</div>
+							<div id="songmid">
+								
+							</div>
 							<div id="songbottom">
 								
 							</div>
@@ -232,7 +252,6 @@
 						<span id=""></span>
 						<ul>
 							<li><a id="profilebtn" href="#0">Profile</a></li>
-							<li><a id="interestbtn" href="#0">Interests</a></li>
 							<li><a id="animebtn" href="#0">Anime</a></li>
 							<li><a id="songsbtn" href="#0">Music</a></li>
 							<li><a id="gamesbtn" href="#0">Games</a></li>

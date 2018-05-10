@@ -1,0 +1,33 @@
+#intro{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#profilePic{
+	background-image: url("../images/Profile/picture.png");
+	width: 20%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+#profileContent{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+#profileContent li{
+	padding-left: 5%;
+	list-style-type: none;
+}
+#profileContent p{
+	float: left;
+	font-size: 30px;
+}
+#changeSize{
+	/*width: 0%;*/
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 30px;
+}

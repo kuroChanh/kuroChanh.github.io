@@ -206,36 +206,6 @@ img {
 	/*height: 585px;*/
 	height: 88vh;
 }
-/*intro*/
-#intro{
-	display: block;
-}
-#intro #profileChara{
-	margin: 0;
-	float: left;
-	width: 40%;
-}
-#info{
-	margin: 0;
-	padding: 0;
-	float: left;
-	width: 57%;
-	padding-right: 3%;
-}
-#intro h3{
-	margin: 0;
-	padding-top: 20px;
-}
-#intro ul{
-	list-style: square;
-}
-#stats{
-	float: left;
-	width: 33%;
-}
-#stats progress{
-	float: right;
-}
 /*interest*/
 #interest{
 	padding-top: 160px;
