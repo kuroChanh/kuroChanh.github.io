@@ -5,6 +5,7 @@ $(document).ready(function(){
 	var size = document.getElementById('changeSize');
 	var sizeCount = 0;
 	var increase = true;
+	var animTime = 100;
 	//call function
 	init();
 	//functions
@@ -15,26 +16,41 @@ $(document).ready(function(){
 		if(hobbyCount > favHobbies.length - 1){
 			hobbyCount = 0;
 		}
-		hobby.textContent = favHobbies[hobbyCount];
-		//animate 1 second will make it appear, 1 second will make it disappear
+		//animate
 		animText();
-		// hobbyCount++;
-		setTimeout(changeHobby, 100);
+		//timer
+		setTimeout(changeHobby, animTime);
 	}
 	function animText(){
 		//alert(size.clientWidth);
 		if(increase){
-			size.setAttribute('style', 'width: ' + sizeCount + '%');
-			sizeCount = sizeCount + 4;
-			if(sizeCount > 52){
+			// size.setAttribute('style', 'width: ' + sizeCount + '%');
+			// sizeCount = sizeCount + 4;
+			// if(sizeCount > 40){
+			// 	increase = false;
+			// }
+			hobby.textContent += favHobbies[hobbyCount].charAt(sizeCount);
+			if(sizeCount >= favHobbies[hobbyCount].length - 1){
 				increase = false;
+				animTime = 700;
+			}
+			else{
+				sizeCount++;
 			}
 		}
 		else{
-			size.setAttribute('style', 'width: ' + sizeCount + '%');
-			sizeCount = sizeCount - 4;
-			if(sizeCount <= 0){
-				// sizeCount = 0;
+			// size.setAttribute('style', 'width: ' + sizeCount + '%');
+			// sizeCount = sizeCount - 4;
+			// if(sizeCount <= 0){
+			// 	increase = true;
+			// 	//increment word
+			// 	hobbyCount++;
+			// }
+			animTime = 100;
+			var temp = hobby.textContent.slice(0, -1);
+			hobby.textContent = temp;
+			sizeCount--;
+			if(sizeCount < 0){
 				increase = true;
 				hobbyCount++;
 			}

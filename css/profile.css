@@ -23,11 +23,11 @@
 #profileContent p{
 	float: left;
 	font-size: 30px;
+	text-align: center;
 }
 #changeSize{
-	/*width: 0%;*/
 	float: left;
-	overflow: hidden;
-	white-space: nowrap;
+	/*overflow: hidden;
+	white-space: nowrap;*/
 	font-size: 30px;
 }
