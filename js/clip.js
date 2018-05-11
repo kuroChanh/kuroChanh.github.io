@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	var hobby = document.getElementById('changeHobby');
-	var favHobbies = ['coding', 'drawing', 'watching anime', 'playing games', 'making crafts'];
+	var favHobbies = ['loves to code', 'loves drawing', 'loves learning new code', 'watches anime', 'plays games', 'loves making crafts', 'loves shibas and alpacas',
+						'plays soccer and badminton', 'has a large collection of plushies', 'is a fan of Block B', 'loves cute stationary'];
 	var hobbyCount = 0;
 	var size = document.getElementById('changeSize');
 	var sizeCount = 0;
@@ -24,6 +25,7 @@ $(document).ready(function(){
 	function animText(){
 		//alert(size.clientWidth);
 		if(increase){
+			animTime = 100;
 			// size.setAttribute('style', 'width: ' + sizeCount + '%');
 			// sizeCount = sizeCount + 4;
 			// if(sizeCount > 40){
@@ -46,7 +48,7 @@ $(document).ready(function(){
 			// 	//increment word
 			// 	hobbyCount++;
 			// }
-			animTime = 100;
+			animTime = 40;
 			var temp = hobby.textContent.slice(0, -1);
 			hobby.textContent = temp;
 			sizeCount--;

@@ -27,7 +27,16 @@
 }
 #changeSize{
 	float: left;
+	color: #dda59e;
 	/*overflow: hidden;
 	white-space: nowrap;*/
 	font-size: 30px;
+}
+#type{
+	animation: typing 0.75s linear infinite;
+}
+@keyframes typing{
+	30% {color: #000000;}
+	50% {color: #FFFFFF;}
+	70% {color: #000000;}
 }

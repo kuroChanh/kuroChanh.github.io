@@ -4,7 +4,9 @@ body, a, p, ul, html, div{
 }
 body {
 	/*background: #21aeb8;*/
-	background-image: url("../images/bgimg.png");
+	/*background-image: url("../images/bgimg.png");*/
+	background-image: url(" ");
+	background-color: #d2dfc5;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -18,8 +20,9 @@ h1 {
 	/*stays on top*/
 	z-index: 3;
 	width: 100%;
-	background-color: #000000;
-	color: #000000;
+	/*background-color: #000000;*/
+	background-color: #193415;
+	/*color: #b2dbcb;*/
 	text-align: center;
 }
 #nav a {
@@ -35,7 +38,7 @@ h1 {
 	font-weight: bold;
 }
 #nav a:hover {
-	background-color: #443a45;
+	background-color: #4f7b3c;
 	/*animation time*/
 	transition: all .2s;
 }
@@ -76,7 +79,8 @@ h1 {
 }
 /*PROFILE*/
 #profileimg {
-	background-image: url("../images/profileimg.jpg");
+	/*background-image: url("../images/profileimg.jpg");*/
+	background-image: url(" ");
 	width: 100%;
 	height: 100px;
 	background-repeat: no-repeat;
@@ -228,7 +232,7 @@ img {
 /*slider navbar*/
 #slidernav {
 	width: 100%; 
-	background-color: #000000;
+	background-color: #193415;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -244,7 +248,7 @@ img {
 	outline: none;
 }
 #slidernav a:hover {
-	background-color: #443a45;
+	background-color: #4f7b3c;
 	transition: all .2s;
 }
 #slidernav ul {
