@@ -285,8 +285,9 @@ footer hr{
 	width: 320px;
 	display: block;
 	border: 0;
-	border-top: 1px solid #FFFFFF;
+	border-top: 1px solid #193415;
 }
 footer p {
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #193415;
 }
