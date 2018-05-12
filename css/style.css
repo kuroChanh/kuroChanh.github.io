@@ -36,11 +36,13 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 13px;
 	font-weight: bold;
+	text-decoration: none;
 }
 #nav a:hover {
 	background-color: #4f7b3c;
 	/*animation time*/
 	transition: all .2s;
+	text-decoration: none;
 }
 #nav ul {
 	display: inline-block;
@@ -183,6 +185,7 @@ img {
 	height: 20px;
 	background-image: url('../images/musicicon.gif');
 	background-position: center;
+	background-repeat: no-repeat;
 	margin-right: 5%;
 }
 /*MAIN SECTION*/
