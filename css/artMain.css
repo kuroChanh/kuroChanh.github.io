@@ -53,3 +53,11 @@
 	/*background-image: url("../images/Artwork/test.png");
 	height: 90%;*/
 }
+.workDetails{
+	display: none;
+	float: left;
+	margin-top: 2%;
+}
+#currDetails{
+
+}
