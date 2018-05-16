@@ -49,3 +49,6 @@
   text-align: center;
   grid-row-end: span 15;
 }
+#topText{
+	text-align: center;
+}
