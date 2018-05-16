@@ -1,3 +1,8 @@
+#viewContent2{
+	background: #FFFFFF;
+	width: 58%;
+	float: left;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -6,31 +11,41 @@
 }
 .grid-item-1 {
   background-color: rgba(255, 255, 255, 0.8);
-  background-image: url("../images/Artwork/test.png");
+  background-image: url("../images/night.jpg");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   font-size: 30px;
   text-align: center;
-  grid-row-end: span 10;
+  grid-row-end: span 25;
 }
 .grid-item-2 {
   background-color: rgba(255, 255, 255, 0.8);
-  background-image: url("../images/Artwork/test.png");
+  background-image: url("../images/vietCurry.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  grid-row-end: span 19;
+}
+.grid-item-3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url("../images/meerkat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  grid-row-end: span 16;
+}
+.grid-item-4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url("../images/fries.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   font-size: 30px;
   text-align: center;
   grid-row-end: span 15;
-}
-.grid-item-3 {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url("../images/Artwork/test.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  font-size: 30px;
-  text-align: center;
-  grid-row-end: span 20;
 }
