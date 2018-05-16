@@ -5,6 +5,13 @@
 	width: 21%;
 	float: left;
 }
+#sections a{
+	color: #000000;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+}
 #sections li{
 	padding-top: 3px;
 	padding-bottom: 6px;
@@ -22,6 +29,7 @@
 	height: 120vh;
 	float: left;
 }
+
 #favGallery{
 	background-image: url("../images/Artwork/test.png");
 	background-repeat: no-repeat;
@@ -50,13 +58,14 @@
 	transition: all .2s;
 }
 #currWork{
-	/*background-image: url("../images/Artwork/test.png");
-	height: 90%;*/
+
 }
 .workDetails{
 	display: none;
 	float: left;
 	margin-top: 2%;
+	text-align: center;
+	width: 75%;
 }
 #currDetails{
 
