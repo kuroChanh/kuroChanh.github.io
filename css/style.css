@@ -119,11 +119,11 @@ img {
 	color: #FFFFFF;
 }
 /*CONTACT INFO*/
-#twitter, #wordpress {
+#twitter {
 	text-align: left;
 	margin-left: 10%;
 }
-#twittericon, #wordpressicon, #linkedinicon, #twitchicon {
+#twittericon, #linkedinicon, #twitchicon {
 	background: #000000;
 	border-radius: 5px;
 	padding: 5px;
