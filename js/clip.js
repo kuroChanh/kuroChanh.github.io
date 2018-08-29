@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	var hobby = document.getElementById('changeHobby');
 	var favHobbies = ['loves to code', 'loves drawing', 'loves learning new code', 'watches anime', 'plays games', 'loves making crafts', 'loves shibas and alpacas',
-						'plays soccer and badminton', 'has a collection of plushies', 'is a fan of Block B', 'loves cute stationary',
-						'likes watching scary movies'];
+						'plays soccer and badminton', 'has a collection of plushies', 'is a fan of Block B', 'loves cute stationary', 'uses a planner', 
+						'watches korean dramas'];
 	var hobbyCount = 0;
 	var size = document.getElementById('changeSize');
 	var sizeCount = 0;

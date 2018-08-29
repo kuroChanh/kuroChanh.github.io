@@ -89,9 +89,12 @@
 	padding-bottom: 3px;
 	margin-bottom: 10px;
 }
+#personalSkills{
+	text-align: center;
+}
 
 #resRight{
-	float: left;
+	float: right;
 	background-color: #FFFFFF;
 	margin: 2%;
 	margin-left: 1%;
