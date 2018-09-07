@@ -25,7 +25,7 @@
 	width: 40%;
 	float: left;
 	font-family: Arial;
-	font-size: 18pt;
+	font-size: 14pt;
 }
 #favdesc p{
 	margin: 5%;
@@ -52,6 +52,7 @@
 	background-image: url("../images/CurrentAnime/oso.gif");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 240%;
 }
 #img2{
 	background-image: url("../images/CurrentAnime/josuke.gif");
@@ -95,6 +96,43 @@
 	background-position: center;
 	background-size: 240%;
 }
+#img9{
+	background-image: url("../images/CurrentAnime/kamuy.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img10{
+	background-image: url("../images/CurrentAnime/gura1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img11{
+	background-image: url("../images/CurrentAnime/toriko.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img12{
+	background-image: url("../images/CurrentAnime/hanebado.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img13{
+	background-image: url("../images/CurrentAnime/shirokuma.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+#img14{
+	background-image: url("../images/CurrentAnime/saint.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 240%;
+}
+
 .container{
 	padding: 1.75%;
 	padding-right: 0;
@@ -110,18 +148,18 @@
 }
 .overlay{
 	padding: 0;
-	background-color: #3e6cb7;
+	background-color: #7baf74;
 	width: 100%;
 	height: 0%;
 	transition: 0.5s ease;
 	overflow: hidden;
 }
 .container:hover .overlay{
-	height: 15%;
+	height: 20%;
 	transition: 0.5s ease;
 }
 .container:hover .image{
-	height: 85%;
+	height: 80%;
 	transition: 0.5s ease;
 }
 .text{
@@ -129,56 +167,3 @@
 	font-size: 10px;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#anime{
-	display: none;
-	width: 100%;
-	height: 250px;
-}
-#animeleft{
-	float: left;
-	width: 40%;
-	height: 100%;
-}
-#animeimg1, #animeimg2, #animeimg3{
-	width: 100%;
-	height: 78%;
-	padding: 0;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 120%;
-}
-#animeimg1{
-	background-image: url("../images/CurrentAnime/pte1.gif");
-}
-#animeimg2{
-	background-image: url("../images/CurrentAnime/pte2.gif");
-}
-#animeimg3{
-	background-image: url("../images/CurrentAnime/pte3.gif");
-}
-#title{
-	background-image: url("../images/CurrentAnime/ptetitle.jpg");
-	width: 60%;
-	height: 78%;
-	padding: 0;
-	margin: 0;
-	float: right;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-}*/

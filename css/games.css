@@ -1,5 +1,146 @@
 #games{
 	display: none;
+	width: 100%;
+	height: 100%;
+}
+#games ul{
+	display: inline-block;
+	list-style: none;
+}
+#games li{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+#games a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 14pt;
+	margin: 0;
+	padding: 0;
+}
+#gameButton1{
+	border-bottom: solid;
+	border-width: 2px;
+}
+
+#tabds{
+	display: none;
+}
+#tabmobile{
+	display: none;
+}
+#tabpc{
+	display: none;
+}
+
+#ios1{
+	background-image: url("../images/Games/feh.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ios2{
+	background-image: url("../images/Games/gbf.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ios3{
+	background-image: url("../images/Games/uta.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 220%;
+	background-position: 47% 0%;
+}
+#ios4{
+	background-image: url("../images/Games/ccp.PNG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-position: 50% 0%;
+}
+#ios5{
+	background-image: url("../images/Games/food.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150%;
+	background-position: 30% 0%;
+}
+#ios6{
+	background-image: url("../images/Games/oso.PNG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 180%;
+}
+#ios7{
+	background-image: url("../images/Games/crash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125%;
+}
+#ios8{
+	background-image: url("../images/Games/acpc.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200%;
+	background-position: 50% 80%;
+}
+
+.alltabs{
+	width: 100%;
+	height: 5%;
+	padding-top: 2%;
+	padding-left: 2%;
+	margin: 0;
+}
+.tabcontent{
+	width: 88%;
+	height: 95%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.tabcontent h3, .tabcontent p{
+	height: 5%;
+}
+.game{
+	width: 100%;
+	height: 100%;
+}
+.gameSlot{
+	margin: 0;
+	width: 20%;
+	height: 30%;
+	padding-top: 4%;
+	padding-left: 4.5%;
+	float: left;
+}
+.gameimg{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#games{
+	display: none;
 	padding-top: 1%;
 	width: 100%;
 	height: 100%;
@@ -113,4 +254,4 @@
 #laptopConsole{
 	background-image: url("../images/Games/laptop.png");
 	background-size: 100%;
-}
+}*/

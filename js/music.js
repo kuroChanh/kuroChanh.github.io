@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var onplayhead = false;
 	//playhead moved when mouse is released
 
-	var songs = ["Boys and Girls.mp3", "ANTI.mp3", "Inspiring.mp3", "Loves me Loves me not.mp3", "My Zone.mp3", "Walkin in the Rain.mp3", "Yesterday.mp3", "Inferiority Complex.mp3", "It Was Love.mp3", "Shall We Dance.mp3"];
+	var songs = ["Boys and Girls.mp3", "Inspiring.mp3", "INSTANT.mp3", "Loves me Loves me not.mp3", "My Zone.mp3", "Walkin in the Rain.mp3", "Yesterday.mp3", "Don't Leave.mp3", "Inferiority Complex.mp3", "It Was Love.mp3", "Shall We Dance.mp3"];
 	var current = -1;
 
 	music.addEventListener("timeupdate", timeUpdate, false);
