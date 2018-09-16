@@ -27,6 +27,7 @@
 
 #tabds{
 	display: none;
+	overflow-y: scroll;
 }
 #tabmobile{
 	display: none;
@@ -35,57 +36,249 @@
 	display: none;
 }
 
-#ios1{
-	background-image: url("../images/Games/feh.jpg");
+#ps1{
+	background-image: url("../images/Games/nier.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 225%;
+}
+#ps2{
+	background-image: url("../images/Games/ffxv.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 97%;
+}
+#ps3{
+	background-image: url("../images/Games/type0.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
+}
+#ps4{
+	background-image: url("../images/Games/xrd.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 90%;
+	background-size: 100%;
+}
+#ps5{
+	background-image: url("../images/Games/fates.png");
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: 120%;
+}
+#ps6{
+	background-image: url("../images/Games/war.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: 100%;
+}
+
+#ds1{
+	background-image: url("../images/Games/fea.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds2{
+	background-image: url("../images/Games/birthright.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds3{
+	background-image: url("../images/Games/avalon.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds4{
+	background-image: url("../images/Games/acnl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 105%;
+}
+#ds5{
+	background-image: url("../images/Games/bravely.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds6{
+	background-image: url("../images/Games/echoes.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds7{
+	background-image: url("../images/Games/pokey.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds8{
+	background-image: url("../images/Games/pokeomega.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds9{
+	background-image: url("../images/Games/pokesun.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds10{
+	background-image: url("../images/Games/tomo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds11{
+	background-image: url("../images/Games/hamster.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds12{
+	background-image: url("../images/Games/pokeheart.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds13{
+	background-image: url("../images/Games/pokeb2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds14{
+	background-image: url("../images/Games/pokeb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds15{
+	background-image: url("../images/Games/pokecon.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds16{
+	background-image: url("../images/Games/pokesuper.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds17{
+	background-image: url("../images/Games/pokemystery.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds18{
+	background-image: url("../images/Games/zeldahour.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds19{
+	background-image: url("../images/Games/zeldaspirit.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds20{
+	background-image: url("../images/Games/devil.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds21{
+	background-image: url("../images/Games/mario.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds22{
+	background-image: url("../images/Games/mana.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds23{
+	background-image: url("../images/Games/naruto.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#ds24{
+	background-image: url("../images/Games/puzzler.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#ios1{
+	background-image: url("../images/Games/feh.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 92%;
 }
 #ios2{
 	background-image: url("../images/Games/gbf.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: 92%;
 }
 #ios3{
-	background-image: url("../images/Games/uta.jpg");
+	background-image: url("../images/Games/uta.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 220%;
-	background-position: 47% 0%;
+	background-size: 92%;
 }
 #ios4{
-	background-image: url("../images/Games/ccp.PNG");
+	background-image: url("../images/Games/ccp.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
-	background-position: 50% 0%;
+	background-size: 92%;
 }
 #ios5{
-	background-image: url("../images/Games/food.jpg");
+	background-image: url("../images/Games/food.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 150%;
-	background-position: 30% 0%;
+	background-size: 92%;
 }
 #ios6{
 	background-image: url("../images/Games/oso.PNG");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 180%;
+	background-size: 92%;
 }
 #ios7{
 	background-image: url("../images/Games/crash.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 125%;
+	background-size: 92%;
 }
 #ios8{
-	background-image: url("../images/Games/acpc.jpg");
+	background-image: url("../images/Games/acpc.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 92%;
+	background-position: 50% 80%;
+}
+
+#pc1{
+	background-image: url("../images/Games/papers.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 175%;
+}
+#pc2{
+	background-image: url("../images/Games/payday.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 200%;
-	background-position: 50% 80%;
 }
 
 .alltabs{
@@ -97,7 +290,7 @@
 }
 .tabcontent{
 	width: 88%;
-	height: 95%;
+	height: 90%;
 	padding-left: 6%;
 	padding-right: 6%;
 }
@@ -111,7 +304,7 @@
 .gameSlot{
 	margin: 0;
 	width: 20%;
-	height: 30%;
+	height: 32.5%;
 	padding-top: 4%;
 	padding-left: 4.5%;
 	float: left;

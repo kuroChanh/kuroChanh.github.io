@@ -15,7 +15,6 @@
   grid-row-end: span 20;
 }
 .gridImage{
-  background-image: url("../images/Artwork/Characters/newest.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 180%;
@@ -44,7 +43,24 @@
 #topText{
 	text-align: center;
 }
-#ocNew{
+
+#curr1{
+  background-image: url("../images/Artwork/Current/test.png");
+  background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#ocNew{
   background-image: url("../images/Artwork/Characters/newest.png");
   background-size: 180%;
 }
@@ -71,4 +87,4 @@
 #oc10{
   background-image: url("../images/Artwork/Characters/oc10.png");
   background-size: 180%;
-}
+}*/
