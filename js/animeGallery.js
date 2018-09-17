@@ -2,7 +2,7 @@ $(document).ready(function(){
 	//game section gallery
 	//top screen gallery
 	//get image to manipulate
-	var currAnime = document.getElementById('favshots');
+	var currAnime = document.getElementById('favAnimeShots');
 	var currDesc = document.getElementById('animeTitle');
 	var currDesc2 = document.getElementById('animeGenre');
 	//image array for top screen
@@ -25,6 +25,6 @@ $(document).ready(function(){
 		//increase counter
 		topcount++;
 		//timer
-		setTimeout(topPlay, 3000);
+		setTimeout(topPlay, 2000);
 	};
 });

@@ -10,8 +10,8 @@
 .animeimg{
 
 }
-#favshots{
-	background-image: url("../images/CurrentAnime/pte1.gif");
+#favAnimeShots{
+	background-image: url("../images/CurrentAnime/cells.gif");
 	width: 60%;
 	height: 100%;
 	margin: 0;
