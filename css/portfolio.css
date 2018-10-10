@@ -4,9 +4,11 @@
 #viewPort{
 	background: #FFFFFF;
 	width: 75%;
-	height: 120vh;
+	height: 82vh;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
+	overflow: auto;
+	padding-top: 1%;
 }
 #p1{
 	background-image: url("../images/Games/nier.jpg");
@@ -50,9 +52,10 @@
 	margin: 0;
 	width: 20%;
 	height: 25%;
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-bottom: 2%;
 	float: left;
-	margin-left: 2%;
+	margin-left: 4%;
 }
 .portImg{
 	width: 100%;
@@ -122,14 +125,5 @@
 	float: left;
 	text-align: center;
 	margin-top: 20%;
-}
-
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+	padding-left: 3%;
 }

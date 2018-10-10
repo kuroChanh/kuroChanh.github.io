@@ -6,9 +6,9 @@ $(document).ready(function(){
 	var currDesc = document.getElementById('animeTitle');
 	var currDesc2 = document.getElementById('animeGenre');
 	//image array for top screen
-	var animeGallery = ['cells.gif', 'isekai.gif'];
-	var animeDesc1 = ['Hataraku Saibou', 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'];
-	var animeDesc2 = ['Comedy, Shounen', 'Fantasy'];
+	var animeGallery = ['cells.gif', 'isekai.gif', 'run.gif', 'jojo.gif'];
+	var animeDesc1 = ['Hataraku Saibou', 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu', 'Kaze ga Tsuyoku Fuiteiru', 'JJBA: Golden Wind'];
+	var animeDesc2 = ['Comedy, Shounen', 'Fantasy', 'Drama, Sports', 'Action, Adventure, Shounen'];
 	//counter
 	var topcount = 0;
 	//call the function

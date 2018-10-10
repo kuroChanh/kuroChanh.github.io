@@ -237,35 +237,22 @@
 	background-size: 92%;
 }
 #ios4{
-	background-image: url("../images/Games/ccp.jpg");
+	background-image: url("../images/Games/ccp.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 92%;
 }
 #ios5{
-	background-image: url("../images/Games/food.png");
+	background-image: url("../images/Games/azur.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 92%;
+	background-size: 115%;
 }
 #ios6{
-	background-image: url("../images/Games/oso.PNG");
+	background-image: url("../images/Games/drag.PNG");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 92%;
-}
-#ios7{
-	background-image: url("../images/Games/crash.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 92%;
-}
-#ios8{
-	background-image: url("../images/Games/acpc.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 92%;
-	background-position: 50% 80%;
 }
 
 #pc1{
