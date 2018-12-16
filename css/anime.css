@@ -12,14 +12,14 @@
 }
 #favAnimeShots{
 	background-image: url("../images/CurrentAnime/cells.gif");
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 50% 10%;
 	float: left;
-	background-size: 110%;
+	background-size: 90%;
 }
 #favdesc{
 	width: 40%;

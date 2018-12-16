@@ -47,7 +47,7 @@
 	margin-top: 2%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url("../images/Artwork/Current/test.png");
+	/*background-image: url("../images/Artwork/Current/test.png");*/
 	height: 90%;
 	background-size: 300%;
 	transition: all .2s;
@@ -58,7 +58,11 @@
 	transition: all .2s;
 }
 #currWork{
-
+	background-image: url("../images/Artwork/Current/test.png");
+}
+#finWork{
+	background-image: url("../images/Artwork/Finished/reach.png");
+	background-position: 40% 25%;
 }
 .workDetails{
 	display: none;
@@ -69,4 +73,14 @@
 }
 #currDetails{
 
+}
+#a1{
+	background-image: url("../images/Artwork/Finished/reach.png");
+	background-size: 175%;
+	background-position: 45% 10%;
+}
+#a2{
+	background-image: url("../images/Artwork/Finished/ccs.png");
+	background-size: 350%;
+	background-position: 47% 10%;
 }

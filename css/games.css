@@ -72,6 +72,18 @@
 	background-position: 50% 20%;
 	background-size: 100%;
 }
+#ps7{
+	background-image: url("../images/Games/ffxii.png");
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	background-size: 100%;
+}
+#ps8{
+	background-image: url("../images/Games/ffxiv.png");
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: 190%;
+}
 
 #ds1{
 	background-image: url("../images/Games/fea.png");
@@ -243,12 +255,6 @@
 	background-size: 92%;
 }
 #ios5{
-	background-image: url("../images/Games/azur.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 115%;
-}
-#ios6{
 	background-image: url("../images/Games/drag.PNG");
 	background-repeat: no-repeat;
 	background-position: center;
