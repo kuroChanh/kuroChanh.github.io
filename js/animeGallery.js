@@ -153,12 +153,10 @@ $(document).ready(function(){
 		if(preview == false){
 			preview = true;
 			container.setAttribute('style', 'left: 30%');
-			container.setAttribute('style', 'transition: 0.5s ease');
 		}
 		else if(preview == true){
 			preview = false;
 			container.setAttribute('style', 'left: 50%');
-			container.setAttribute('style', 'transition: 0.5s ease');
 		}
 	});
 
