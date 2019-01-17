@@ -93,8 +93,41 @@
 	font-size: 14pt;
 }
 
-
-
 #aPreview{
 	cursor: pointer;
+}
+
+#aGifs{
+	display: none;
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	width: 30%;
+	height: 80%;
+	background-color: #FFFFFF;
+	transform: translate(-50%, -50%);
+}
+#gif1, #gif2, #gif3{
+	width: 100%;
+	height: 30%;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin-top: 4%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#gif1{
+	background-image: url("../images/CurrentAnime/Gifs/kara1.gif");
+}
+#gif1:hover {
+	animation-play-state: paused;
+}
+#gif2{
+	background-image: url("../images/CurrentAnime/Gifs/kara2.gif");
+}
+#gif3{
+	background-image: url("../images/CurrentAnime/Gifs/kara3.gif");
 }

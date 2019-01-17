@@ -10,6 +10,15 @@ $(document).ready(function(){
 	var titleGallery = ['Karakuri Circus', 'JJBA Part 5: Golden Wind', 'Kaze ga Tsuyoku Fuiteiru', 'Mob Psycho 100 II',
 						'Yakusoku no Neverland', 'Tsurune: Kazemai Koukou Kyuudoubo'];
 
+	var gifGall1 = ['kara1.gif', '', 'kaze1.gif'];
+	var gifGall2 = ['kara2.gif', '', 'kaze1.gif'];
+	var gifGall3 = ['kara3.gif', '', 'kaze1.gif'];
+
+	var gif1 = document.getElementById('gif1');
+	var gif2 = document.getElementById('gif2');
+	var gif3 = document.getElementById('gif3');
+	var gifCon = document.getElementById('aGifs');
+
 	var statusGallery = ['13/36 eps', '14/39 eps', '12/23 eps', '2/? eps', '1/? eps', '12/13 eps'];
 
 	var next = false;
@@ -40,6 +49,9 @@ $(document).ready(function(){
 			currAnime.setAttribute('style', 'background-image: url("images/CurrentAnime/' + animeGallery[imgCount] + '")');
 			currTitle.textContent =  titleGallery[imgCount];
 			currStatus.textContent =  "My Progress: " + statusGallery[imgCount];
+			gif1.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall1[imgCount] + '")');
+			gif2.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall2[imgCount] + '")');
+			gif3.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall3[imgCount] + '")');
 			next = false;
 		}
 		else if(prev == true){
@@ -49,12 +61,18 @@ $(document).ready(function(){
 			currAnime.setAttribute('style', 'background-image: url("images/CurrentAnime/' + animeGallery[imgCount] + '")');
 			currTitle.textContent =  titleGallery[imgCount];
 			currStatus.textContent =  "My Progress: " + statusGallery[imgCount];
+			gif1.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall1[imgCount] + '")');
+			gif2.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall2[imgCount] + '")');
+			gif3.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall3[imgCount] + '")');
 			prev = false;
 		}
 		else if(dotpress == true){
 			currAnime.setAttribute('style', 'background-image: url("images/CurrentAnime/' + animeGallery[imgCount] + '")');
 			currTitle.textContent =  titleGallery[imgCount];
 			currStatus.textContent =  "My Progress: " + statusGallery[imgCount];
+			gif1.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall1[imgCount] + '")');
+			gif2.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall2[imgCount] + '")');
+			gif3.setAttribute('style', 'background-image: url("images/CurrentAnime/Gifs/' + gifGall3[imgCount] + '")');
 			dotpress = false;
 		}
 		if(imgCount == 0){
@@ -153,10 +171,12 @@ $(document).ready(function(){
 		if(preview == false){
 			preview = true;
 			container.setAttribute('style', 'left: 30%');
+			gifCon.setAttribute('style', 'display: block');
 		}
 		else if(preview == true){
 			preview = false;
 			container.setAttribute('style', 'left: 50%');
+			gifCon.setAttribute('style', 'display: none');
 		}
 	});
 
