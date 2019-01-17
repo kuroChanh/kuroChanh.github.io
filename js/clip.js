@@ -4,20 +4,21 @@ $(document).ready(function(){
 	'loves to code', 
 	'loves drawing', 
 	'loves learning new code', 
-	'watches anime', 'plays games', 
+	'watches anime and reads manga',
+	'plays games', 
 	'loves making crafts', 
 	'loves shibas and alpacas', 
-	'plays soccer and badminton', 
+	'loves to play soccer and badminton', 
 	'has a collection of plushies', 
 	'is a fan of Block B', 
 	'loves cute stationary', 
-	'uses a mini and regular happy planner', 
-	'watches korean dramas', 
-	'has a pet budgie named Tofu', 
+	'uses a Happy Panner and mini Happy Planner', 
+	'watches Korean dramas and HongKong movies', 
+	'has a budgie named Tofu and a lovebird named Pip', 
 	'likes magic tricks', 
-	'listens to Block B (kpop)', 
-	'is learning to make UV resin charms', 
-	'models stuff using MagicaVoxel'
+	'started making resin crafts', 
+	'models using MagicaVoxel',
+	'uses a sewing machine to make pouches and bags'
 	];
 	
 	var hobbyCount = 0;
