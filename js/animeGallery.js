@@ -10,9 +10,9 @@ $(document).ready(function(){
 	var titleGallery = ['Karakuri Circus', 'JJBA Part 5: Golden Wind', 'Kaze ga Tsuyoku Fuiteiru', 'Mob Psycho 100 II',
 						'Yakusoku no Neverland', 'Tsurune: Kazemai Koukou Kyuudoubo'];
 
-	var gifGall1 = ['kara1.gif', '', 'kaze1.gif'];
-	var gifGall2 = ['kara2.gif', '', 'kaze1.gif'];
-	var gifGall3 = ['kara3.gif', '', 'kaze1.gif'];
+	var gifGall1 = ['kara1.gif', 'jojo1.gif', 'kaze1.gif', 'mob1.gif', 'never1.gif', 'tsuru1.gif'];
+	var gifGall2 = ['kara2.gif', 'jojo2.gif', 'kaze2.gif', 'mob2.gif', 'never2.gif', 'tsuru2.gif'];
+	var gifGall3 = ['kara3.gif', 'jojo3.gif', 'kaze3.gif', 'mob3.gif', 'never3.gif', 'tsuru3.gif'];
 
 	var gif1 = document.getElementById('gif1');
 	var gif2 = document.getElementById('gif2');
