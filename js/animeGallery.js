@@ -14,16 +14,12 @@ $(document).ready(function(){
 	var gifGall2 = ['kara2.gif', 'jojo2.gif', 'kaze2.gif', 'mob2.gif', 'never2.gif', 'tsuru2.gif'];
 	var gifGall3 = ['kara3.gif', 'jojo3.gif', 'kaze3.gif', 'mob3.gif', 'never3.gif', 'tsuru3.gif'];
 
-	// var gifGall1 = [''];
-	// var gifGall2 = [''];
-	// var gifGall3 = [''];
-
 	var gif1 = document.getElementById('gif1');
 	var gif2 = document.getElementById('gif2');
 	var gif3 = document.getElementById('gif3');
 	var gifCon = document.getElementById('aGifs');
 
-	var statusGallery = ['13/36 eps', '14/39 eps', '12/23 eps', '2/? eps', '1/? eps', '12/13 eps'];
+	var statusGallery = ['14/36 eps', '15/39 eps', '13/23 eps', '2/? eps', '2/? eps', '13/13 eps'];
 
 	var next = false;
 	var prev = false;
