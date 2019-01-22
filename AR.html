@@ -20,15 +20,15 @@
 	    	</a-assets>
 	    	<!-- create your content here. just a box for now -->
 	    	<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-	    	<!-- define a camera which will move according to the marker position -->
-	    	<!-- tell A-Frame to have AR.js to control the camera -->
-	    	<a-marker-camera preset='hiro'></a-marker-camera>
 	    	<!-- use model -->
 	    	<a-entity position="0 0.5 0" obj-model="#test"></a-entity>
 	    	<!-- add text -->
     		<a-text position="0 0.5 0" value="Hello"></a-text>
     		<!-- image -->
     		<a-image position="0 0.5 0" src="images/fries.png"></a-image>
+    		<!-- define a camera which will move according to the marker position -->
+	    	<!-- tell A-Frame to have AR.js to control the camera -->
+	    	<a-marker-camera preset='hiro'></a-marker-camera>
 	 	</a-scene>
 	</body>
 </html>
