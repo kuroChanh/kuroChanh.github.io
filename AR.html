@@ -19,16 +19,15 @@
 	    	<!-- define a camera which will move according to the marker position -->
 	    	<!-- tell A-Frame to have AR.js to control the camera -->
 	    	<a-marker-camera preset='hiro'></a-marker-camera>
-
-	    	<a-assets>
-	    		<!-- define obj -->
-	    		<a-asset-item id="test" src="models/test.obj"></a-asset-item>
-	    		<!-- use model -->
-	    		<a-entity obj-model="##test"></a-entity>
-	    		<!-- add text -->
+	    	<!-- use model -->
+	    	<a-entity obj-model="##test"></a-entity>
+	    	<!-- add text -->
 	    		<a-text value="Hello"></a-text>
 	    		<!-- image -->
 	    		<a-image src="images/fries.png"></a-image>
+	    	<a-assets>
+	    		<!-- define obj -->
+	    		<a-asset-item id="test" src="models/test.obj"></a-asset-item>
 	    	</a-assets>
 	 	</a-scene>
 	</body>
