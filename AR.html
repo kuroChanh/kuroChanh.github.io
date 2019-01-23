@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<!-- init AR.js -->
-	  	<a-scene embedded arjs>
+	  	<a-scene embedded arjs='sourceType: webcam;'>
 	  		<a-assets>
 	    		<!-- define obj -->
 	    		<a-asset-item id="test" src="models/test.obj"></a-asset-item>
@@ -36,22 +36,22 @@
 
 
 	    	<!-- handle marker with your own pattern -->
-    <a-marker type='pattern' url='images/temp.patt'>
-      <a-box position='0 0.5 0' material='color: red;'></a-box>
-    </a-marker>
+			    <a-marker type='pattern' url='images/temp.patt'>
+			      <a-box position='0 0.5 0' material='color: red;'></a-box>
+			    </a-marker>
 
-    <!-- handle marker with hiro preset -->
-    <a-marker preset='hiro'>
-      <a-box position='0 0.5 0' material='color: green;'></a-box>
-    </a-marker>
+			    <!-- handle marker with hiro preset -->
+			    <a-marker preset='hiro'>
+			      <a-box position='0 0.5 0' material='color: green;'></a-box>
+			    </a-marker>
 
-    <!-- handle barcode marker -->
-    <a-marker type='barcode' value='5'>
-      <a-box position='0 0.5 0' material='color: blue;'></a-box>
-    </a-marker>
+			    <!-- handle barcode marker -->
+			    <a-marker type='barcode' value='5'>
+			      <a-box position='0 0.5 0' material='color: blue;'></a-box>
+			    </a-marker>
 
-    <!-- add a simple camera -->
-    <a-entity camera></a-entity>
+			    <!-- add a simple camera -->
+			    <a-entity camera></a-entity>
 	 	</a-scene>
 	</body>
 </html>
