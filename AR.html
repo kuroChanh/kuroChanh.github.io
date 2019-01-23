@@ -21,7 +21,7 @@
 	    		<img id="test2" src="images/fries.png"></a-asset-item>
 	    	</a-assets>
 	    	<!-- create your content here. just a box for now -->
-	    	<!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
+	    	<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
 	    	<!-- use model -->
 	    	<!-- <a-entity scale=".025 .025 .025" rotation="180 0 0" position="0 0.5 0" obj-model="obj: #test; mtl: #test1"></a-entity> -->
 	    	<!-- add text -->
@@ -30,28 +30,7 @@
     		<!-- <a-image position="0 0.5 0" rotation="90 0 180" src="#test2"></a-image> -->
     		<!-- define a camera which will move according to the marker position -->
 	    	<!-- tell A-Frame to have AR.js to control the camera -->
-	    	<!-- <a-marker-camera preset='hiro'></a-marker-camera> -->
-
-
-
-
-	    	<!-- handle marker with your own pattern -->
-			    <a-marker type='pattern' url='images/pattern-marker.patt'>
-			      <a-box position='0 0.5 0' material='color: red;'></a-box>
-			    </a-marker>
-
-			    <!-- handle marker with hiro preset -->
-			    <a-marker preset='hiro'>
-			      <a-box position='0 0.5 0' material='color: green;'></a-box>
-			    </a-marker>
-
-			    <!-- handle barcode marker -->
-			    <a-marker type='barcode' value='5'>
-			      <a-box position='0 0.5 0' material='color: blue;'></a-box>
-			    </a-marker>
-
-			    <!-- add a simple camera -->
-			    <a-entity camera></a-entity>
+	    	<a-marker-camera preset='hiro'></a-marker-camera>
 	 	</a-scene>
 	</body>
 </html>
