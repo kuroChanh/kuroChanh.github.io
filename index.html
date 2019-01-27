@@ -1,485 +1,119 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--readers can read in english-->
+		<!-- readers can read in english -->
 		<meta charset="UTF-8">
-		<!--tab title-->
 		<title>Welcome!</title>
-		<!--tab icon-->
+		<!-- tab icon -->
 		<link rel="icon" type="image/icon" href="images/profileimg.ico"/>
-		<!--link to the font awesome file-->
+		<!-- link to font awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<!--css-->
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
-		<link rel="stylesheet" type="text/css" href="css/anime.css"/>
-		<link rel="stylesheet" type="text/css" href="css/music.css"/>
-		<link rel="stylesheet" type="text/css" href="css/games.css"/>
-		<!--javascript-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<!-- js -->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-		<script type="text/javascript" src="js/music.js"></script>
-		<script type="text/javascript" src="js/scroll.js"></script>
-		<script type="text/javascript" src="js/slider.js"></script>
-		<script type="text/javascript" src="js/clip.js"></script>
-		<script type="text/javascript" src="js/animeGallery.js"></script>
-		<script type="text/javascript" src="js/gametab.js"></script>
 	</head>
 	<body>
+		<!-- nav bar -->
 		<div id="nav">
-			<!--list of tabs-->
+			<div id="icon"></div>
 			<ul>
-				<li><a name="about">About</a></li>
+				<li><a name="about" class="mainnav" href="about.html">About Me</a></li>
 				<li><a name="art" class="mainnav" href="artwork.html">Artwork</a></li>
 				<li><a name="projects" class="mainnav" href="portfolio.html">Portfolio</a></li>
 				<li><a name="resume" class="mainnav" href="resume.html">Resume</a></li>
 			</ul>
 		</div>
-		<div id="side">
-			<!-- profile background -->
-			<div id="profileimg"></div>
-			<!-- kuroChanh -->
-			<div id="profile">
-				<h1>Tuyetnhi Neenee Ngo</h1>
-				<p id="greet"><b>Gamer Tag:</b> kuroChanh</p>
-				<hr/>
-				<!--Music-->
-				<div id="music">
-					<button id="prevBtn" class="fa fa-step-backward"></button>
-					<button id="pButton" class="fa fa-play"></button>
-					<button id="nextBtn" class="fa fa-step-forward"></button>
-					<div id="timeline">
-						<div id="playhead"></div>
-					</div>
-					<div id="musicicon"></div>
-				</div>
-				<!-- starting song -->
-				<audio id="audio" preload="true">
-					<source src="audio/Shall We Dance.mp3"/>
-				</audio>
-				<hr/>
-				<!--Profile Info-->
-				<p><b>Game Programming Student:</b> Graduate of Humber College</p>
-				<p><b>Current Work:</b> Looking for Work</p>
-				<p><b>Currently Playing:</b> Fire Emblem Heroes</p>
-				<hr/>
-				<p>Discord: kuroChanh #1715</p>
-				<hr/>
-				<!--Contact Information-->
-				<div id="contact">
-					<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fa fa-twitter"></a>
-					<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo" id="linkedinicon" class="fa fa-linkedin"></a>
-					<a href="https://www.twitch.tv/kurochanh" id="twitchicon" class="fa fa-twitch"></a>
-				</div>
-			</div>
-		</div>
 		<div id="main">
-			<div id="about">
-				<!-- about slideshow -->
-				<div id="sliderbase">
-					<ul id="slider">
-						<div id="intro">
-							<div id="profilePic"></div>
-							<p id="start">I'm someone who&nbsp;</p>
-							<div id="profileContent">
-								<div id="changeSize">
-									<span><p id="changeHobby"></p></span>
-								</div>
-								<!-- save for the typing effect I did originally ;w; -->
-								<!-- <p id="type">&#124;</p> -->
-							</div>
-						</div>
-						<!--anime section done-->
-						<div id="anime">
-							<div id="animetop">
-								<div id="favAnimeShots"></div>
-								<div id="favdesc">
-									<p>Currenty Watching</p>
-									<p id="animeTitle">Title: Hataraku Saibou</p>
-									<p id="animeGenre">Genre: Comedy, Shounen</p>
-								</div>
-							</div>
-							<div id="fav"><p>Favourite Anime</p></div>
-							<div id="animebottom">
-								<div class="container">
-									<div id="img1" title="Comedy, Parody" class="image"></div>
-									<div class="overlay">
-										<p class="text">Osomatsu-san</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img2" title="Action, Adventure, Drama, Shounen, Supernatural" class="image"></div>
-									<div class="overlay">
-										<p class="text">Jojo's Bizarre Adventure</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img3" title="Action, Comedy, Slice of Life, Supernatural" class="image"></div>
-									<div class="overlay">
-										<p class="text">Mob Psycho 100</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img4" title="Action, Horror, Mystery, Seinen, Supernatural" class="image"></div>
-									<div class="overlay">
-										<p class="text">Ajin</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img5" title="Comedy, School, Shounen, Slice of Life" class="image"></div>
-									<div class="overlay">
-										<p class="text">Daily Lives of High School Boys</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img6" title="Comedy, School, Shounen" class="image"></div>
-									<div class="overlay">
-										<p class="text">Cromartie High School</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img7" title="Action, Adventure, Shounen, Super Power" class="image"></div>
-									<div class="overlay">
-										<p class="text">Hunter x Hunter</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img8" title="Comedy, School, Seinen" class="image"></div>
-									<div class="overlay">
-										<p class="text">Sakamoto Desu Ga</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img9" title="Action, Adventure, Historical, Seinen" class="image"></div>
-									<div class="overlay">
-										<p class="text">Golden Kamuy</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img10" title="Seinen, Slice of Life" class="image"></div>
-									<div class="overlay">
-										<p class="text">Rokuhoudou Yotsuiro Biyori</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img11" title="Action, Adventure, Comedy, Fantasy, Shounen" class="image"></div>
-									<div class="overlay">
-										<p class="text">Toriko</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img12" title="Seinen, Sports" class="image"></div>
-									<div class="overlay">
-										<p class="text">Hanebado!</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img13" title="Comedy, Josei, Slice of Life" class="image"></div>
-									<div class="overlay">
-										<p class="text">Shirokuma Cafe</p>
-									</div>
-								</div>
-								<div class="container">
-									<div id="img14" title="Comedy, Seinen, Slice of Life" class="image"></div>
-									<div class="overlay">
-										<p class="text">Saint Onii-san</p>
-									</div>
-								</div>
-
-							</div>							
-						</div>
-						<div id="songs">
-							<!-- <div id="tempImage"></div> -->
-							<div id="songtop">
-								<div class="container2">
-									<div id="member1" class="image"></div>
-									<div class="overlay">
-										<p class="text">U-Kwon</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member2" class="image"></div>
-									<div class="overlay">
-										<p class="text">B-Bomb</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member3" class="image"></div>
-									<div class="overlay">
-										<p class="text">Zico</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member4" class="image"></div>
-									<div class="overlay">
-										<p class="text">P.O</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member5" class="image"></div>
-									<div class="overlay">
-										<p class="text">Taeil</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member6" class="image"></div>
-									<div class="overlay">
-										<p class="text">Park Kyung</p>
-									</div>
-								</div>
-								<div class="container2">
-									<div id="member7" class="image"></div>
-									<div class="overlay">
-										<p class="text">Jaehyo</p>
-									</div>
-								</div>
-							</div>
-							<div id="favBand"><p>Favourite Band: Block B</p></div>
-							<div id="songleft">
-								<p id="latest">Latest Song</p>
-								<div id="latestImg"></div>
-								<p>Title: Don't Leave</p>
-								<p>Artist: Block B</p>
-								<p>Album: Re:MONTAGE</p>
-							</div>
-							<div id="songright">
-								<p id="playlist">Current Song Playlist</p>
-								<table>
-								  	<tr>
-								    	<th>Title</th>
-								    	<th>Artist</th>
-								    	<th>Album</th>
-								  	</tr>
-								  	<tr>
-								    	<td>Shall We Dance</td>
-								    	<td>Block B</td>
-								    	<td>MONTAGE</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Boys and Girls</td>
-								    	<td>Zico</td>
-								    	<td>Boys and Girls</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Inspiring</td>
-								    	<td>Taeil</td>
-								    	<td>흔들린다</td>
-								  	</tr>
-								  	<tr>
-								    	<td>INSTANT</td>
-								    	<td>Park Kyung</td>
-								    	<td>Single</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Loves Me Loves Me Not</td>
-								    	<td>Taeil</td>
-								    	<td>Single</td>
-								  	</tr>
-								  	<tr>
-								    	<td>My Zone</td>
-								    	<td>Block B</td>
-								    	<td>My Zone</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Walking in the Rain</td>
-								    	<td>Block B</td>
-								    	<td>Blooming Period</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Yesterday</td>
-								    	<td>Block B</td>
-								    	<td>Single</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Don't Leave</td>
-								    	<td>Block B</td>
-								    	<td>Re:MONTAGE</td>
-								  	</tr>
-								  	<tr>
-								    	<td>Inferiority Complex</td>
-								    	<td>Park Kyung</td>
-								    	<td>자격지심</td>
-								  	</tr>
-								  	<tr>
-								    	<td>It Was Love</td>
-								    	<td>Block B</td>
-								    	<td>Blooming Period</td>
-								  	</tr>
-								</table>
-							</div>
-						</div>
-						<div id="games">
-							<div class="alltabs">
-								<ul>
-									<li id="gameButton1" onclick="openGames('tabps4')"><a href="#0">PS4</a></li>
-									<li id="gameButton2" onclick="openGames('tabds')"><a href="#0">3DS</a></li>
-									<li id="gameButton3" onclick="openGames('tabmobile')"><a href="#0">Mobile</a></li>
-									<li id="gameButton4" onclick="openGames('tabpc')"><a href="#0">PC</a></li>
-								</ul>
-							</div>
-							<div class="tabcontent">
-								<div id="tabps4" class="game">
-  									<h3>PS4 Games</h3>
-								  	<p>I bought the console in 2017, and I have a lot to complete.</p>
-								  	<div class="gameSlot">
-								  		<div id="ps1" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps2" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps3" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps4" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps5" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps6" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps7" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ps8" class="gameimg"></div>
-								  	</div>
-								</div>
-								<div id="tabds" class="game">
-								  	<h3>3DS Games</h3>
-								  	<p>I've had this handheld console the longest, which also has the most games.</p> 
-								  	<div class="gameSlot">
-								  		<div id="ds1" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds2" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds3" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds4" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds5" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds6" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds7" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds8" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds9" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds10" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds11" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds12" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds13" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds14" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds15" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds16" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds17" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds18" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds19" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds20" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds21" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds22" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds23" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ds24" class="gameimg"></div>
-								  	</div>
-								</div>
-								<div id="tabmobile" class="game">
-								  	<h3>Mobile Games</h3>
-								  	<p>I play these games everyday.</p>
-								  	<div class="gameSlot">
-								  		<div id="ios1" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios2" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios3" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios4" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios5" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios6" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios7" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="ios8" class="gameimg"></div>
-								  	</div>
-								</div>
-								<div id="tabpc" class="game">
-								  	<h3>PC Games</h3>
-								  	<p>I got these games on steam.</p>
-								  	<div class="gameSlot">
-								  		<div id="pc1" class="gameimg"></div>
-								  	</div>
-								  	<div class="gameSlot">
-								  		<div id="pc2" class="gameimg"></div>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</ul>
-					<!--Bottom Slider Sections-->
-					<div id="slidernav">
-						<span id=""></span>
-						<ul>
-							<li><a id="profilebtn" href="#0">Profile</a></li>
-							<li><a id="animebtn" href="#0">Anime</a></li>
-							<li><a id="songsbtn" href="#0">Music</a></li>
-							<li><a id="gamesbtn" href="#0">Games</a></li>
-						</ul>
-					</div>
+			<div id="intro">
+				<div id="bgphoto">
+					<h1>Game Programmer</h1>
+					<div id="redirect" class="button">My Resume</div>
 				</div>
 			</div>
+			<div id="profile" class="section">
+				<div id="profileL">
+					<div id="profilePic"></div>
+					<h1>Tuyetnhi Neenee Ngo</h1>
+					<p>Game Programmer | Gamer</p>
+					<p>Artist | Crafter</p>
+				</div>
+				<div id="profileR">
+					<p>I am a Game Programming graduate of 2018</p>
+					<p>Not sure what else to add here right now</p>
+					<div id="more" class="button">Resume</div>
+				</div>
+			</div>
+			<div id="art" class="section">
+				<h1>Artwork</h1>
+				<hr noshade/>
+				<div id="artTop">
+					<div class="artpiece">
+						<div id="art1"></div>
+						<p></p>
+					</div>
+					<div class="artpiece">
+						<div id="art2"></div>
+						<p></p>
+					</div>
+					<div class="artpiece">
+						<div id="art3"></div>
+						<p></p>
+					</div>
+				</div>
+				<div id="artBot">
+					<div id="artbut1" class="button">More Art</div>
+					<div id="artbut2" class="button">Commission</div>
+				</div>
+			</div>
+			<div id="port" class="section">
+				<h1>Portfolio</h1>
+				<hr noshade/>
+				<div id="portTop">
+					<div class="portPiece">
+						<div id="port1"></div>
+						<h1>Technique 1</h1>
+					</div>
+					<div class="portPiece">
+						<div id="port2"></div>
+						<h1>Technique 2</h1>
+					</div>
+					<div class="portPiece">
+						<div id="port3"></div>
+						<h1>Technique 3</h1>
+					</div>
+				</div>
+				<div id="portBut" class="button">More</div>
+			</div>
+			<div id="contact" class="section">
+				<h1>Contact Me</h1>
+				<hr noshade/>
+				<div id="conTop">
+					<div class="conPiece">
+						<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fab fa-twitter fa-sm"></a>
+						<p>https://twitter.com/ChanhKuro</p>
+					</div>
+					<div class="conPiece">
+						<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo" id="linkedinicon" class="fab fa-linkedin fa-sm"></a>
+						<p id="conLong">https://www.linkedin.com/in/tuyetnhi-neenee-ngo</p>
+					</div>
+					<div class="conPiece">
+						<a href="https://www.twitch.tv/kurochanh" id="twitchicon" class="fab fa-twitch fa-sm"></a>
+						<p>https://www.twitch.tv/kurochanh</p>
+					</div>
+					<div class="conPiece">
+						<a id="discordicon" class="fab fa-discord fa-sm"></a>
+						<p>Discord: kuroChanh #1715</p>
+					</div>
+				</div>				
+				<footer id="copyright">
+					<!--Copyright and such go here-->
+					<p>Copyright © 2015-2019 Tuyetnhi Neenee Ngo. All rights reserved.</p>
+					<hr noshade/>
+					<p>Designed by Tuyetnhi Neenee Ngo</p>
+				</footer>
+			</div>
 		</div>
-		<footer id="copyright">
-			<!--Copyright and such go here-->
-			<p>Copyright © 2015-2018 Neenee Ngo. All rights reserved.</p>
-			<hr noshade/>
-			<p>Designed by Neenee Ngo</p>
-		</footer>
 	</body>
 </html>
