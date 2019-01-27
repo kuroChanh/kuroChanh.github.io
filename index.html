@@ -9,10 +9,27 @@
 		<!-- link to font awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<<<<<<< HEAD
 		<!-- css -->
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<!-- js -->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+=======
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="css/anime.css"/>
+		<link rel="stylesheet" type="text/css" href="css/food.css"/>
+		<link rel="stylesheet" type="text/css" href="css/games.css"/>
+		<!--javascript-->
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/food.js"></script>
+		<script type="text/javascript" src="js/gametab.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/clip.js"></script>
+		<script type="text/javascript" src="js/animeGallery.js"></script>
+>>>>>>> 8dbfc79011152387f48ddc8319f148ff486b9a42
 	</head>
 	<body>
 		<!-- nav bar -->
@@ -23,6 +40,7 @@
 				<li><a name="art" class="mainnav" href="artwork.html">Artwork</a></li>
 				<li><a name="projects" class="mainnav" href="portfolio.html">Portfolio</a></li>
 				<li><a name="resume" class="mainnav" href="resume.html">Resume</a></li>
+				<li><a name="ar" class="mainnav" href="AR.html">AR</a></li>
 			</ul>
 		</div>
 		<div id="main">
@@ -62,6 +80,7 @@
 						<p></p>
 					</div>
 				</div>
+<<<<<<< HEAD
 				<div id="artBot">
 					<div id="artbut1" class="button">More Art</div>
 					<div id="artbut2" class="button">Commission</div>
@@ -82,6 +101,270 @@
 					<div class="portPiece">
 						<div id="port3"></div>
 						<h1>Technique 3</h1>
+=======
+				<!-- starting song -->
+				<audio id="audio" preload="true">
+					<source src="audio/Shall We Dance.mp3"/>
+				</audio>
+				<hr/>
+				<!--Profile Info-->
+				<p><b>Game Programming Graduate:</b> Graduate of Humber College</p>
+				<p><b>Current Work:</b> Previously worked at the Calendar Club</p>
+				<!-- <p><b>Currently Playing:</b> </p> -->
+				<hr/>
+				<!--Contact Information-->
+				<div id="contact">
+					<a href="https://twitter.com/ChanhKuro" id="twittericon" class="fab fa-twitter fa-sm"></a>
+					<a href="https://www.linkedin.com/in/tuyetnhi-neenee-ngo" id="linkedinicon" class="fab fa-linkedin fa-sm"></a>
+					<a href="https://www.twitch.tv/kurochanh" id="twitchicon" class="fab fa-twitch fa-sm"></a>
+					<a id="discordicon" class="fab fa-discord fa-sm" title="Discord: kuroChanh #1715"></a>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div id="about">
+				<!-- about slideshow -->
+				<div id="sliderbase">
+					<ul id="slider">
+						<div id="intro">
+							<div id="profilePic"></div>
+							<p id="start">I'm someone who&nbsp;</p>
+							<div id="profileContent">
+								<div id="changeSize">
+									<span><p id="changeHobby"></p></span>
+								</div>
+								<!-- save for the typing effect I did originally ;w; -->
+								<!-- <p id="type">&#124;</p> -->
+							</div>
+						</div>
+						<div id="anime">
+							<div id="aSlider">
+								<div id="aTop">
+									<div id="aCurr">
+										<div id="aLeft"></div>
+										<div id="aRight"></div>	
+									</div>
+									<div id="aDot" style="text-align:center">
+				  						<span id="dot0" class="dot"></span> 
+				  						<span id="dot1" class="dot"></span> 
+				  						<span id="dot2" class="dot"></span>
+				  						<span id="dot3" class="dot"></span>
+				  						<span id="dot4" class="dot"></span>
+				  						<span id="dot5" class="dot"></span>
+									</div>
+								</div>
+								<div id="aBottom">
+									<h1 id="aTitle">Karakuri Circus</h1>
+									<p id="aStatus">My Progress: 13/36 eps</p>
+									<div>
+										
+									</div>
+									<p id="aPreview">Preview</p>
+								</div>
+							</div>
+							<div id="aGifs">
+								<div id="gif1"></div>
+								<div id="gif2"></div>
+								<div id="gif3"></div>
+							</div>
+						</div>
+						<div id="food">
+							<div id="menu">
+								<div id="border"></div>
+								<div id="currFood"></div>
+								<h1 id="foodTitle">Cà Phê</h1>
+							</div>
+							<div id="foodGallery">
+								<div id="food1" class="foodItem"></div>
+								<div id="food2" class="foodItem"></div>
+								<div id="food3" class="foodItem"></div>
+								<div id="food4" class="foodItem"></div>
+								<div id="food5" class="foodItem"></div>
+								<div id="food6" class="foodItem"></div>
+							</div>
+						</div>
+						<div id="games">
+							<div class="alltabs">
+								<ul>
+									<li id="gameButton1" onclick="openGames('tabps4')"><a href="#0">PS4</a></li>
+									<li id="gameButton2" onclick="openGames('tabds')"><a href="#0">3DS</a></li>
+									<li id="gameButton3" onclick="openGames('tabmobile')"><a href="#0">Mobile</a></li>
+									<li id="gameButton4" onclick="openGames('tabpc')"><a href="#0">Steam</a></li>
+								</ul>
+							</div>
+							<div class="tabcontent">
+								<div id="tabps4" class="game">
+  									<h3>PS4 Games</h3>
+								  	<div class="gameSlot">
+								  		<div id="ps1" class="gameimg"></div>
+								  		<figcaption>
+								  			<p>Nier: Automata</p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps2" class="gameimg"></div>
+								  		<figcaption>
+								  			<p>Final Fantasy XV</p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps3" class="gameimg"></div>
+								  		<figcaption>
+								  			<p>Final Fantasy Type-0</p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps4" class="gameimg"></div>
+								  		<figcaption>
+								  			<p></p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps5" class="gameimg"></div>
+								  		<figcaption>
+								  			<p></p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps6" class="gameimg"></div>
+								  		<figcaption>
+								  			<p>Final Fantasy XII</p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps7" class="gameimg"></div>
+								  		<figcaption>
+								  			<p>Final Fantasy XIV</p>
+								  		</figcaption>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ps8" class="gameimg"></div>
+								  	</div>
+								</div>
+								<div id="tabds" class="game">
+								  	<h3>3DS Games</h3>
+								  	<div class="gameSlot">
+								  		<div id="ds1" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds2" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds3" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds4" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds5" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds6" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds7" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds8" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds9" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds10" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds11" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds12" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds13" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds14" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds15" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds16" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds17" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds18" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds19" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds20" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds21" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds22" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds23" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ds24" class="gameimg"></div>
+								  	</div>
+								</div>
+								<div id="tabmobile" class="game">
+								  	<h3>Mobile Games</h3>
+								  	<div class="gameSlot">
+								  		<div id="ios1" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios2" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios3" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios4" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios5" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios6" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios7" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="ios8" class="gameimg"></div>
+								  	</div>
+								</div>
+								<div id="tabpc" class="game">
+								  	<h3>Steam Games</h3>
+								  	<div class="gameSlot">
+								  		<div id="pc1" class="gameimg"></div>
+								  	</div>
+								  	<div class="gameSlot">
+								  		<div id="pc2" class="gameimg"></div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					<!--Bottom Slider Sections-->
+					<div id="slidernav">
+						<span id=""></span>
+						<ul>
+							<li><a id="profilebtn" href="#0">Profile</a></li>
+							<li><a id="animebtn" href="#0">Anime</a></li>
+							<li><a id="foodbtn" href="#0">Food</a></li>
+							<li><a id="gamesbtn" href="#0">Games</a></li>
+						</ul>
+>>>>>>> 8dbfc79011152387f48ddc8319f148ff486b9a42
 					</div>
 				</div>
 				<div id="portBut" class="button">More</div>
@@ -115,5 +398,14 @@
 				</footer>
 			</div>
 		</div>
+<<<<<<< HEAD
+=======
+		<footer id="copyright">
+			<!--Copyright and such go here-->
+			<p>Copyright © 2015-2019 Neenee Ngo. All rights reserved.</p>
+			<hr noshade/>
+			<p>Designed by Neenee Ngo</p>
+		</footer>
+>>>>>>> 8dbfc79011152387f48ddc8319f148ff486b9a42
 	</body>
 </html>

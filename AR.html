@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AR Test</title>
+		<!-- /// -->
+		<!-- include A-Frame -->
+		<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+		<!-- include ar.js for A-Frame -->
+		<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+		<!-- /// -->
+		<link rel="stylesheet" type="text/css" href="css/ar.css"/>
+		<script type="text/javascript" src="js/ar.js"></script>
+	</head>
+	<body>
+		<!-- init AR.js -->
+	  	<a-scene embedded arjs='sourceType: webcam;'>
+	  		<a-assets>
+	    		<!-- define obj -->
+	    		<a-asset-item id="test" src="models/test.obj"></a-asset-item>
+	    		<a-asset-item id="test1" src="models/test.mtl"></a-asset-item>
+	    		<img id="test2" src="images/fries.png"></a-asset-item>
+	    	</a-assets>
+	    	<!-- create your content here. just a box for now -->
+	    	<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+	    	<!-- use model -->
+	    	<!-- <a-entity scale=".025 .025 .025" rotation="180 0 0" position="0 0.5 0" obj-model="obj: #test; mtl: #test1"></a-entity> -->
+	    	<!-- add text -->
+    		<!-- <a-text value="Hello"></a-text> -->
+    		<!-- image -->
+    		<!-- <a-image position="0 0.5 0" rotation="90 0 180" src="#test2"></a-image> -->
+    		<!-- define a camera which will move according to the marker position -->
+	    	<!-- tell A-Frame to have AR.js to control the camera -->
+	    	<a-marker-camera preset='hiro'></a-marker-camera>
+	 	</a-scene>
+	</body>
+</html>

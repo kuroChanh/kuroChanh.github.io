@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--readers can read in english-->
+		<meta charset="UTF-8">
+		<!--tab title-->
+		<title>Welcome!</title>
+		<!--tab icon-->
+		<link rel="icon" type="image/icon" href="images/profileimg.ico"/>
+		<!--link to the font awesome file-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="css/artMain.css"/>
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+		<!--javascript-->
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/workClick.js"></script>
+		<script type="text/javascript" src="js/port.js"></script>
+	</head>
+	<body>
+		<div id="nav">
+			<!--list of tabs-->
+			<ul>
+				<li><a name="about" href="index.html">About</a></li>
+				<li><a name="art" class="mainnav" href="artwork.html">Artwork</a></li>
+				<li><a name="projects" class="mainnav">Portfolio</a></li>
+				<li><a name="resume" class="mainnav" href="resume.html">Resume</a></li>
+				<li><a name="ar" class="mainnav" href="AR.html">AR</a></li>
+			</ul>
+		</div>
+		<div id="mainPort">
+			<div id="viewPort">
+				<div class="post" onclick="openNav()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav2()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav3()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav4()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav5()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav6()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav7()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav8()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav9()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav10()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav11()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav12()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav13()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav14()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNa15()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav16()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav17()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav18()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav19()">
+					<div id="p1" class="portImg"></div>
+					<div id="pp1" class="portCover"></div>
+				</div>
+				<div class="post" onclick="openNav20()">
+					<div id="p2" class="portImg"></div>
+					<div id="pp2" class="portCover"></div>
+				</div>
+			</div>
+		</div>
+		<div id="overDesc" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg1" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Camera</h1>
+			    	<p>This is an FPS (First Person Shooter) camera. The user can explore the game world in first person using the WASD keys. The the mouse wheel to zoom in or zoom out in the scene. This camera is updated when there is a change to the camera, recalculating the lookat matrix to render the scene properly to the user. If the user were to move the camera backwards, then the position of the camera would have to along the positive z-axis as that axis points towards the user. To go forward, the camera would move along the negative z-axis.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc2" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg2" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Multiple Lights</h1>
+			    	<p>There is directional lighting that illuminates the game world. Point lights are used as the bridge lights as it lights up at one point. Spot light is used as a flash light for the user to use currently in this version. Each individual lighting in the scene is done using one shader, calculating the final output vector with the use of GLSL functions for each type of lighting. Once each light is calculated, they combine in order to create the final output vector, creating light in the scene.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc3" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg3" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Models</h1>
+			    	<p>I use Assimp to import my .obj models into my scene. My mesh and model class are used to load and store the imported models. There's also some optimization where the functions can check whether the model has not been loaded. We check the file path and compare its path. If there is a match, then it will skip the rendering and use the located texture for the mesh.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc4" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg4" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Depth Test</h1>
+			    	<p>I have a shader that is being used on some objects to show the use of the depth buffer. This depth buffer stores the information of each fragment and updates with each render. As the user moves closer to the object, it will become white. Moving away from the object will make it become black. This helps the user tell the depth between each object within the scene.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc5" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg5" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Stencil Test ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc6" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg6" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Blending ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc7" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg4" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Framebuffers ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc8" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg8" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Cubemap ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc9" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg9" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Geometry Shader</h1>
+			    	<p>The geometry shader in this example makes an exploding affect on the model. To create this effect, the geometry calculates the normals of each face of the model, then uses the sin wave to change the distance of where the face is originally positioned, making the effect loop.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc10" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg10" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Instancing ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc11" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg11" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Anti-Aliasing ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc12" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg12" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Shadow Mapping ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc13" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg13" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Point Shadows ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc14" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg14" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Normal Map ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc15" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg15" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Parallax Map ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc16" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg16" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Text Rendering ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc17" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg17" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>AABB Collision</h1>
+			    	<p>Game objects can be given an AABB collision box. I created a class where AABB related information can be held and easily be added to a game object or anything else I needed to test this. By passing two game objects with AABB collision boxes to a function, they will be tested whether they have collided or not. If there is a collision, it will print a statement based on the results.</p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc18" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg18" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Game Controller ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc19" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg19" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Tessellation ;w;</h1>
+			    	<p></p>
+			    </div>
+			</div>
+		</div>
+		<div id="overDesc20" class="overlay">
+			<p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+			<div class="overlaySection">
+				<div class="overImgBase">
+					<div id="overImg20" class="overImg"></div>
+				</div>
+			    <div class="overText">
+			    	<h1>Dialogue Mechanic</h1>
+			    	<p>I used Fire Emblem: Awakening as a reference and I was able to create my own dialogue mechanic. To read through the dialogue, the user presses enter which moves onto the next line. This mechanic uses a struct that has several vectors. These vectors include the dialogue lines, text background, characters 1 and 2, and bool. If the player finishes the dialogue, then it will stay on that final line. It will be unable to pass the size of the vector, which would cause an error if it did. This can be further optimized by creating an external file for the engine to read and input the values using a function, but I am happy with the current version!</p>
+			    </div>
+			</div>
+		</div>
+		<div id="home2"></div>
+		<footer id="copyright">
+			<!--Copyright and such go here-->
+			<p>Copyright © 2015-2018 Neenee Ngo. All rights reserved.</p>
+			<hr noshade/>
+			<p>Designed by Neenee Ngo</p>
+		</footer>
+	</body>
+</html>
