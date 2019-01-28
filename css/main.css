@@ -107,6 +107,9 @@ body {
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
+#profile p{
+	padding-bottom: 2%;
+}
 #profileL{
 	width: 50%;
 	height: 100%;
@@ -114,7 +117,9 @@ body {
 }
 #profileR{
 	margin-top: 13%;
-	width: 50%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 40%;
 	height: 50%;
 	float: left;
 }
