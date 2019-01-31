@@ -1,0 +1,352 @@
+body, a, p, ul, li, h1, html, div{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #193415;
+}
+body {
+	background-color: #d2dfc5;
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+/*nav bar*/
+#nav {
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 22px;
+	/*stays on screen*/
+	position: fixed;
+	/*stays on top*/
+	z-index: 3;
+	background-color: #193415;
+	text-align: center;
+}
+#nav ul {
+	float: right;
+	/*no bullets*/
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+}
+#nav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	/*hints to clickable items*/
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-color: #4f7b3c;
+	/*animation time*/
+	transition: all .2s;
+	text-decoration: none;
+}
+/*main*/
+#main{
+	padding-top: 40px;
+}
+.section{
+	width: 100%;
+	text-align: center;
+}
+.button{
+	margin: auto;
+	margin-top: 2%;
+	width: 20%;
+	font-size: 11pt;
+	transition: 0.2s ease;
+	font-weight: bold;
+}
+.button a{
+	padding: 10px;
+	background: #FFFFFF;
+	border: 3px solid;
+	border-color: #193415;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.button a:hover{
+	background: #193415;
+	color: #FFFFFF;
+	transition: 0.2s ease;
+}
+/*commission button*/
+#artButton{
+	position: absolute;
+	margin: auto;
+	margin-top: 2%;
+	width: 20%;
+	font-size: 11pt;
+	transition: 0.2s ease;
+	font-weight: bold;
+	left: -5.5%;
+	transition: 0.2s ease;
+}
+#artButton a{
+	padding: 10px 20px;
+	background: #193415;
+	border: 3px solid;
+	border-color: #193415;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+#artButton:hover{
+	left: 0;
+	transition: 0.2s ease;
+}
+#artButton a:hover{
+	background: #193415;
+	color: #FFFFFF;
+	transition: 0.2s ease;
+}
+/*commission page*/
+#commPage{
+	height: 100em;
+}
+#middle{
+	margin: auto;
+	width: 70%;
+	height: 100%;
+	background-color: #FFFFFF;
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	background-size: 130%;
+}
+/*top left*/
+#topleft{
+	position: relative;
+	top: -5%;
+	margin: 0;
+	width: 55%;
+	height: 45%;
+	z-index: 1;
+	/*background-color: grey;*/
+	color: #9d6079;
+}
+#tlimg{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/circle.png");
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: 110%;
+}
+#topleft p{
+	width: 55%;
+	padding: 2% 3%;
+	position: relative;
+	top: 47%;
+	text-align: right;
+	background-color: #FFFFFF;
+	border: 1px solid;
+	border-color: #9d6079;
+	border-left: 0px;
+}
+/*top mid*/
+#topmid{
+	position: relative;
+	top: -45%;
+	margin: auto;
+	width: 25%;
+	height: 10%;
+	z-index: 2;
+	/*background-color: grey;*/
+}
+#tmcol{
+	background-color: #000000;
+	width: 100%;
+	height: 20%;
+}
+#tmimg{
+	width: 100%;
+	height: 80%;
+	background-image: url("../images/text1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 110%;
+}
+/*top right*/
+#topright{
+	position: relative;
+	margin-right: 4%;
+	padding-bottom: 2%;
+	width: 25%;
+	height: 7%;
+	float: right;
+	top: -48%;
+	z-index: 2;
+	text-transform: uppercase;
+	/*background-color: grey;*/
+	color: #9d6079;
+}
+#trlogo{
+	width: 15%;
+	height: 30%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: #FFFFFF;
+	float: left;
+}
+#t1{
+	width: 85%;
+	height: 30%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 25pt;
+	font-family: "Arial";
+}
+#t2{
+	padding-top: 4%;
+	width: 100%;
+	height: 30%;
+	float: left;
+	background-color: #fa5770;
+	color: #FFFFFF;
+	font-size: 14pt;
+	text-align: center;
+}
+#t3{
+	margin-right: 15%;
+	margin-top: 4%;
+	width: 85%;
+	height: 30%;
+	float: left;
+	font-size: 20pt;
+	text-align: right;
+}
+/*middle*/
+#midleft{
+	position: relative;
+	width: 40%;
+	height: 40%;
+	top: -34%;
+	left: 7%;
+	z-index: 2;
+}
+#midimg{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/del.JPG");
+	background-repeat: no-repeat;
+	background-size: 135%;
+	background-position: center;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#midright{
+	position: relative;
+	width: 50%;
+	height: 20%;
+	top: -65%;
+	left: 30%;
+	z-index: 3;
+	/*background-color: grey;*/
+}
+#midright hr{
+	border-top: 1px solid;
+}
+#line2{
+	margin-top: 15%;
+}
+#line3{
+	margin-top: 35%;
+}
+#bottom{
+	position: relative;
+	margin: auto;
+	top: -60%;
+	width: 90%;
+	height: 40%;
+	border: 2px solid;
+	border-color: #9d6079;
+}
+
+/*contact*/
+#contact{
+	background-color: #193415;
+	height: 25vmax;
+	color: #d2dfc5;
+}
+#contact h1{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+#contact hr{
+	width: 30%;
+}
+#conTop{
+	margin: auto;
+	width: 65%;
+	height: 55%;
+}
+.conPiece{
+	padding-top: 3%;
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+.conPiece a{
+	margin-left: 25%;
+	display: inline-block;
+	text-decoration: none;
+	color: #193415;
+	float: left;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.conPiece p{
+	margin-left: 2%;
+	margin-top: 2.5%;
+	float: left;
+	font-size: 10pt;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.conPiece p:hover{
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+#conLong{
+	margin-top: 1.5%;
+	width: 50%;
+}
+#twittericon, #linkedinicon, #twitchicon, #discordicon {
+	background: #d2dfc5;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 1.25em;
+	transition: 0.3s ease;
+}
+#twittericon:hover, #linkedinicon:hover, #twitchicon:hover, #discordicon:hover {
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+footer{
+	width: 100%;
+	float: left;
+	font-size: 8pt;
+}

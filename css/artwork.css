@@ -1,0 +1,286 @@
+body, a, p, ul, li, h1, html, div{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #193415;
+}
+body {
+	background-color: #d2dfc5;
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+/*nav bar*/
+#nav {
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 22px;
+	/*stays on screen*/
+	position: fixed;
+	/*stays on top*/
+	z-index: 3;
+	background-color: #193415;
+	text-align: center;
+}
+#nav ul {
+	float: right;
+	/*no bullets*/
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+}
+#nav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	/*hints to clickable items*/
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-color: #4f7b3c;
+	/*animation time*/
+	transition: all .2s;
+	text-decoration: none;
+}
+/*main*/
+#main{
+	padding-top: 40px;
+}
+.section{
+	width: 100%;
+	text-align: center;
+}
+.button{
+	margin: auto;
+	margin-top: 2%;
+	width: 20%;
+	font-size: 11pt;
+	transition: 0.2s ease;
+	font-weight: bold;
+}
+.button a{
+	padding: 10px;
+	background: #FFFFFF;
+	border: 3px solid;
+	border-color: #193415;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.button a:hover{
+	background: #193415;
+	color: #FFFFFF;
+	transition: 0.2s ease;
+}
+/*commission button*/
+#commBut{
+	position: absolute;
+	margin: auto;
+	margin-top: 2%;
+	width: 20%;
+	font-size: 11pt;
+	transition: 0.2s ease;
+	font-weight: bold;
+	left: -8%;
+	transition: 0.2s ease;
+}
+#commBut a{
+	padding: 10px 20px;
+	background: #193415;
+	border: 3px solid;
+	border-color: #193415;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+#commBut:hover{
+	left: 0;
+	transition: 0.2s ease;
+}
+#commBut a:hover{
+	background: #193415;
+	color: #FFFFFF;
+	transition: 0.2s ease;
+}
+/*latest works*/
+#latest{
+	height: 35em;
+	background-color: #d2dfc5;
+}
+#aSlider{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 30%;
+	height: 80%;
+	background-color: #FFFFFF;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#aTop{
+	width: 100%;
+	height: 90%;
+	margin-bottom: 3%;
+}
+#aLeft{
+	float: left;
+	width: 10%;
+	height: 100%;
+	background: linear-gradient(to left, #4B4B4B 0%, #2D2D2D 100%);
+	opacity: 0;
+	transition: 0.5s ease;
+	border-radius: 10px 0px 0px 0px;
+}
+#aLeft:hover{
+	opacity: 0.5;
+	transition: 0.5s ease;
+	cursor: pointer;
+	border-radius: 10px 0px 0px 0px;
+}
+#aCurr{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-image: url("../images/new.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+#aRight{
+	float: right;
+	width: 10%;
+	height: 100%;
+	background: linear-gradient(to right, #4B4B4B 0%, #2D2D2D 100%);
+	opacity: 0;
+	transition: 0.5s ease;
+	border-radius: 0px 10px 0px 0px;
+}
+#aRight:hover{
+	opacity: 0.5;
+	transition: 0.5s ease;
+	cursor: pointer;
+	border-radius: 0px 10px 0px 0px;
+}
+#aDot{
+	text-align: center;
+}
+.dot {
+  	cursor: pointer;
+  	height: 15px;
+  	width: 15px;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  	background-color: #717171;
+}
+/*gallery*/
+#gallery{
+	width: 100%;
+}
+.grid-container{
+	margin: auto;
+	width: 75%;
+}
+#a1{
+  background-image: url("../images/ccs.png");
+  background-size: 250%;
+  background-position: 47% 10%;
+}
+#a2{
+  background-image: url("../images/reach.png");
+  background-size: 150%;
+  background-position: 50% 10%;
+}
+#a3{
+  background-image: url("../images/test.png");
+  background-size: 200%;
+  background-position: 50% 30%;
+}
+#a4{
+  background-image: url("../images/new.png");
+  background-size: 100%;
+  background-position: 50% 30%;
+}
+/*contact*/
+#contact{
+	background-color: #193415;
+	height: 25vmax;
+	color: #d2dfc5;
+}
+#contact h1{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+#contact hr{
+	width: 30%;
+}
+#conTop{
+	margin: auto;
+	width: 65%;
+	height: 55%;
+}
+.conPiece{
+	padding-top: 3%;
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+.conPiece a{
+	margin-left: 25%;
+	display: inline-block;
+	text-decoration: none;
+	color: #193415;
+	float: left;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.conPiece p{
+	margin-left: 2%;
+	margin-top: 2.5%;
+	float: left;
+	font-size: 10pt;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.conPiece p:hover{
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+#conLong{
+	margin-top: 1.5%;
+	width: 50%;
+}
+#twittericon, #linkedinicon, #twitchicon, #discordicon {
+	background: #d2dfc5;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 1.25em;
+	transition: 0.3s ease;
+}
+#twittericon:hover, #linkedinicon:hover, #twitchicon:hover, #discordicon:hover {
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+footer{
+	width: 100%;
+	float: left;
+	font-size: 8pt;
+}
