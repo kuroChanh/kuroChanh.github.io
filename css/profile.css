@@ -5,22 +5,22 @@
 }
 #profilePic{
 	background-image: url("../images/Profile/picture.png");
-	width: 100%;
-	height: 75%;
+	width: 30%;
+	height: 30%;
+	padding-top: 15%;
 	background-repeat: no-repeat;
 	background-position: center;
 	float: left;
-	background-size: 20%;
 }
 #start{
 	font-size: 30px;
 	text-align: center;
 	float: left;
-	width: 100%;
+	width: 70%;
 	height: 5%;
 }
 #profileContent{
-	width: 100%;
+	width: 70%;
 	height: 20%;
 	float: left;
 }

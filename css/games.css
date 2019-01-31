@@ -315,8 +315,7 @@ figcaption{
 	width: 76%;
 	height: 75%;
 	padding: 2.75%;
-	background: #2c3f52;
-	color: #FFFFFF;
+	color: #000000;
 	z-index: -10;
 }
 figcaption p{
