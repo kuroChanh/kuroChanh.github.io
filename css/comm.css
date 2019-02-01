@@ -114,7 +114,7 @@ body {
 }
 /*commission page*/
 #commPage{
-	height: 100em;
+	height: 88em;
 }
 #middle{
 	margin: auto;
@@ -126,162 +126,13 @@ body {
 	background-position: 50% 25%;
 	background-size: 130%;
 }
-/*top left*/
-#topleft{
-	position: relative;
-	top: -5%;
-	margin: 0;
-	width: 55%;
-	height: 45%;
-	z-index: 1;
-	/*background-color: grey;*/
-	color: #9d6079;
-}
-#tlimg{
+#commimg{
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/circle.png");
-	background-repeat: no-repeat;
-	background-position: center right;
-	background-size: 110%;
-}
-#topleft p{
-	width: 55%;
-	padding: 2% 3%;
-	position: relative;
-	top: 47%;
-	text-align: right;
-	background-color: #FFFFFF;
-	border: 1px solid;
-	border-color: #9d6079;
-	border-left: 0px;
-}
-/*top mid*/
-#topmid{
-	position: relative;
-	top: -45%;
-	margin: auto;
-	width: 25%;
-	height: 10%;
-	z-index: 2;
-	/*background-color: grey;*/
-}
-#tmcol{
-	background-color: #000000;
-	width: 100%;
-	height: 20%;
-}
-#tmimg{
-	width: 100%;
-	height: 80%;
-	background-image: url("../images/text1.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 110%;
-}
-/*top right*/
-#topright{
-	position: relative;
-	margin-right: 4%;
-	padding-bottom: 2%;
-	width: 25%;
-	height: 7%;
-	float: right;
-	top: -48%;
-	z-index: 2;
-	text-transform: uppercase;
-	/*background-color: grey;*/
-	color: #9d6079;
-}
-#trlogo{
-	width: 15%;
-	height: 30%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background-image: url("../images/logo.png");
+	background-image:  url("../images/commission.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
-	background-color: #FFFFFF;
-	float: left;
-}
-#t1{
-	width: 85%;
-	height: 30%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	float: left;
-	text-align: center;
-	letter-spacing: 10px;
-	font-size: 25pt;
-	font-family: "Arial";
-}
-#t2{
-	padding-top: 4%;
-	width: 100%;
-	height: 30%;
-	float: left;
-	background-color: #fa5770;
-	color: #FFFFFF;
-	font-size: 14pt;
-	text-align: center;
-}
-#t3{
-	margin-right: 15%;
-	margin-top: 4%;
-	width: 85%;
-	height: 30%;
-	float: left;
-	font-size: 20pt;
-	text-align: right;
-}
-/*middle*/
-#midleft{
-	position: relative;
-	width: 40%;
-	height: 40%;
-	top: -34%;
-	left: 7%;
-	z-index: 2;
-}
-#midimg{
-	width: 100%;
-	height: 100%;
-	background-image: url("../images/del.JPG");
-	background-repeat: no-repeat;
-	background-size: 135%;
-	background-position: center;
-	border-radius: 10px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-#midright{
-	position: relative;
-	width: 50%;
-	height: 20%;
-	top: -65%;
-	left: 30%;
-	z-index: 3;
-	/*background-color: grey;*/
-}
-#midright hr{
-	border-top: 1px solid;
-}
-#line2{
-	margin-top: 15%;
-}
-#line3{
-	margin-top: 35%;
-}
-#bottom{
-	position: relative;
-	margin: auto;
-	top: -60%;
-	width: 90%;
-	height: 40%;
-	border: 2px solid;
-	border-color: #9d6079;
 }
 
 /*contact*/
