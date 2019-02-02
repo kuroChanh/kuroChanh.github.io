@@ -85,13 +85,12 @@ body {
 /*commission button*/
 #commBut{
 	position: absolute;
-	margin: auto;
-	margin-top: 2%;
+	top: 50px;
+	left: -85px;
 	width: 20%;
 	font-size: 11pt;
 	transition: 0.2s ease;
 	font-weight: bold;
-	left: -8%;
 	transition: 0.2s ease;
 }
 #commBut a{
@@ -223,27 +222,26 @@ body {
 	background-color: #193415;
 	height: 25vmax;
 	color: #d2dfc5;
+	/*overflow: auto;*/
 }
 #contact h1{
 	padding-top: 2%;
 	padding-bottom: 1%;
 }
 #contact hr{
-	width: 30%;
+	width: 50%;
 }
 #conTop{
 	margin: auto;
-	width: 65%;
+	width: 60%;
 	height: 55%;
 }
 .conPiece{
-	padding-top: 3%;
 	width: 50%;
 	height: 30%;
 	float: left;
 }
 .conPiece a{
-	margin-left: 25%;
 	display: inline-block;
 	text-decoration: none;
 	color: #193415;
@@ -252,26 +250,26 @@ body {
 	transition: 0.5s ease;
 }
 .conPiece p{
-	margin-left: 2%;
+	/*margin-left: 2%;
 	margin-top: 2.5%;
 	float: left;
 	font-size: 10pt;
 	cursor: pointer;
-	transition: 0.3s ease;
+	transition: 0.3s ease;*/
 }
-.conPiece p:hover{
+/*.conPiece p:hover{
 	opacity: 0.5;
 	transition: 0.3s ease;
-}
-#conLong{
+}*/
+/*#conLong{
 	margin-top: 1.5%;
 	width: 50%;
-}
+}*/
 #twittericon, #linkedinicon, #twitchicon, #discordicon {
+	margin-bottom: 10px;
+	padding: 10px;
 	background: #d2dfc5;
 	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 10px;
 	font-size: 1.25em;
 	transition: 0.3s ease;
 }
@@ -279,7 +277,7 @@ body {
 	opacity: 0.5;
 	transition: 0.3s ease;
 }
-footer{
+#copyright{
 	width: 100%;
 	float: left;
 	font-size: 8pt;
