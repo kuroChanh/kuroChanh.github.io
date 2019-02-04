@@ -113,17 +113,20 @@ body {
 }
 /*latest works*/
 #latest{
-	height: 35em;
-	background-color: #d2dfc5;
+	position: relative;
+	padding-top: 50%;
+	width: 100%;
+	height: 0;
 }
 #aSlider{
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	padding-bottom: 2%;
 	width: 30%;
-	height: 80%;
+	height: 75%;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
 	background-color: #FFFFFF;
-	transform: translate(-50%, -50%);
 	border-radius: 10px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -156,7 +159,7 @@ body {
 	background-image: url("../images/new.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	border-radius: 10px 10px 0px 0px;
 }
 #aRight{
@@ -175,6 +178,7 @@ body {
 	border-radius: 0px 10px 0px 0px;
 }
 #aDot{
+	padding-top: 3%;
 	text-align: center;
 }
 .dot {
@@ -192,30 +196,32 @@ body {
 /*gallery*/
 #gallery{
 	width: 100%;
+	margin-bottom: 3%;
 }
 .grid-container{
 	margin: auto;
 	width: 75%;
+	height: 100%;
 }
 #a1{
   background-image: url("../images/ccs.png");
-  background-size: 250%;
-  background-position: 47% 10%;
+  background-size: cover;
 }
 #a2{
   background-image: url("../images/reach.png");
-  background-size: 150%;
-  background-position: 50% 10%;
+  background-size: cover;
 }
 #a3{
   background-image: url("../images/test.png");
-  background-size: 200%;
-  background-position: 50% 30%;
+  background-size: cover;
 }
 #a4{
   background-image: url("../images/new.png");
-  background-size: 100%;
-  background-position: 50% 30%;
+  background-size: cover;
+}
+#a5{
+  background-image: url("../images/new.png");
+  background-size: cover;
 }
 /*contact*/
 #contact{
