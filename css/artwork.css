@@ -237,6 +237,7 @@ body {
 	height: 55%;
 }
 .conPiece{
+	padding-bottom: 2%;
 	width: 50%;
 	height: 30%;
 	float: left;
@@ -250,28 +251,33 @@ body {
 	transition: 0.5s ease;
 }
 .conPiece p{
-	/*margin-left: 2%;
+	width: 80%;
+	margin-left: 2%;
 	margin-top: 2.5%;
 	float: left;
+	text-align: left;
 	font-size: 10pt;
 	cursor: pointer;
-	transition: 0.3s ease;*/
+	transition: 0.3s ease;
+	word-wrap: break-word;
 }
-/*.conPiece p:hover{
+.conPiece p:hover{
 	opacity: 0.5;
 	transition: 0.3s ease;
-}*/
-/*#conLong{
-	margin-top: 1.5%;
-	width: 50%;
-}*/
+}
+#titlehr{
+	margin-bottom: 4%;
+}
 #twittericon, #linkedinicon, #twitchicon, #discordicon {
-	margin-bottom: 10px;
 	padding: 10px;
 	background: #d2dfc5;
 	border-radius: 5px;
 	font-size: 1.25em;
 	transition: 0.3s ease;
+}
+#twitchicon{
+	padding-left: 11px;
+	padding-right: 11px;
 }
 #twittericon:hover, #linkedinicon:hover, #twitchicon:hover, #discordicon:hover {
 	opacity: 0.5;
