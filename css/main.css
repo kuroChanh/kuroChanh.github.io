@@ -62,13 +62,18 @@ body {
 }
 /*intro*/
 #intro{
+	position: relative;
+	padding-top: 50%;
 	width: 100%;
-	height: 47vmax;
-	text-align: center;
+	height: 0;
+	/*height: 47vmax;*/
 }
 #bgphoto{
+	position: absolute;
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
 	background-image: url("../images/yeah.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -76,39 +81,36 @@ body {
 }
 #bgphoto h1{
 	padding-top: 30%;
+	text-align: center;
 }
 .button{
-	margin: auto;
-	margin-top: 2%;
-	width: 20%;
-	font-size: 11pt;
-	transition: 0.2s ease;
-	font-weight: bold;
-}
-.button a{
-	padding: 10px;
+	padding: 10px 40px;
+	text-align: center;
 	background: #FFFFFF;
-	border: 3px solid;
-	border-color: #193415;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.2s ease;
+	font-weight: bold;
+	font-size: 10pt;
 }
-.button a:hover{
+.button:hover{
 	background: #193415;
 	color: #FFFFFF;
 	transition: 0.2s ease;
 }
+#redirect{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
 /*profile*/
 #profile{
-	height: 49vmax;
+	height: 50vmax;
 }
 #profile h1{
-	padding-top: 2%;
 	padding-bottom: 2%;
-}
-#profile p{
-	padding-bottom: 2%;
+	font-size: 20pt;
 }
 #profileL{
 	width: 50%;
@@ -116,11 +118,11 @@ body {
 	float: left;
 }
 #profileR{
-	margin-top: 13%;
+	margin-top: 2%;
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 40%;
-	height: 50%;
+	height: 90%;
 	float: left;
 }
 #profilePic{
@@ -132,15 +134,14 @@ body {
 	background-image: url("../images/yeah.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-size: 150%;
+	background-size: cover;
 	border-radius: 10px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 #more{
-	width: 20%;
-	padding: 2%;
+	padding-bottom: 6%;
 }
 /*artwork*/
 #art{
@@ -202,13 +203,20 @@ body {
 	height: 20%;
 }
 #artbut1, #artbut2{
-	padding-left: 15%;
-	padding-right: 15%;
-	float: left;
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+	background: #193415;
+	color: #FFFFFF;
+}
+#artbut1:hover, #artbut2:hover {
+	background: #FFFFFF;
+	color: #193415;
 }
 /*portfolio*/
 #port{
-	height: 49vmax;
+	height: 50vmax;
 }
 #port h1{
 	padding-top: 2%;
@@ -337,6 +345,7 @@ body {
 	font-size: 8pt;
 	background-color: #193415;
 }
+/*media query*/
 @media screen and (max-width: 960px){
 	#contact{
 		height: 40vmax;
@@ -351,5 +360,17 @@ body {
 	.conPiece p{
 		margin-top: 0;
 		width: 70%;
+	}
+	#bgphoto h1{
+		font-size: 17pt;
+	}
+	#profile{
+		font-size: 10pt;
+	}
+	#profile h1{
+		font-size: 18pt;
+	}
+	.button{
+		padding: 5px 20px;
 	}
 }
