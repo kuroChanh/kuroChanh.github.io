@@ -74,7 +74,11 @@ body {
 	background-size: 100%;
 }
 #bgphoto h1{
-	
+	position: absolute;
+	top: 70%;
+  	left: 50%;
+  	transform: translate(-50%, -70%);
+	margin: auto;
 	text-align: center;
 }
 .button{
