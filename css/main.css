@@ -104,7 +104,8 @@ body {
 }
 /*profile*/
 #profile{
-	height: 100vh;
+	/*height: 49vmax;*/
+	height: 100VH;
 }
 #profile h1{
 	padding-bottom: 2%;
@@ -144,7 +145,8 @@ body {
 /*artwork*/
 #art{
 	background-color: #FFFFFF;
-	height: 49vmax;
+	/*height: 49vmax;*/
+	height: 100VH;
 }
 #art h1{
 	padding-top: 2%;
@@ -214,7 +216,8 @@ body {
 }
 /*portfolio*/
 #port{
-	height: 50vmax;
+	/*height: 50vmax;*/
+	height: 100vh;
 }
 #port h1{
 	padding-top: 2%;
