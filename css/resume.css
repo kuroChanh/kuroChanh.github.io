@@ -76,11 +76,12 @@ body {
 	position: relative;
 	margin: auto;
 	top: 10%;
-	width: 40%;
-	height: 40%;
+	width: 150px;
+	height: 150px;
 	background-image: url("../images/yeah.jpg");
 	background-repeat: none;
 	background-size: cover;
+	border-radius: 50%;
 }
 #header h1{
 	position: relative;
@@ -108,31 +109,83 @@ body {
 /*info*/
 #info{
 	margin: auto;
+	margin-bottom: 5%;
 	width: 80%;
 	height: 35vh;
 	background-color: #FFFFFF;
+	border-radius: 0 0 5px 5px;
 }
 #info h1{
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 	font-size: 20pt;
+}
+#info p{
+	font-size: 11pt;
 }
 #ileft{
 	padding-left: 5%;
 	padding-right: 5%;
-	width: 50%;
+	width: 45%;
 	height: 100%;
-	background-color: grey;
 	float: left;
+	/*background-color: grey;*/
 }
 #iright{
 	padding-left: 5%;
 	padding-right: 5%;
-	width: 30%;
+	width: 35%;
 	height: 100%;
-	background-color: orange;
+	float: left;
+	/*background-color: orange;*/
+}
+#iright p{
+	padding-bottom: 3%;
+}
+/*skills*/
+#skills{
+	margin: auto;
+	margin-bottom: 5%;
+	width: 80%;
+	height: 80vh;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	color: #193415;
+}
+#sleft{
+	 width: 50%;
+	 height: 100%;
+	 float: left;
+}
+#sleft h1{
+	padding-top: 4%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	font-size: 20pt;
+}
+#sleft p{
+	padding-bottom: 3%;
+}
+#sname{
+	padding-left: 10%;
+	width: 40%;
+	height: 83%;
+	float: left;
+	text-align: left;
+}
+#slevel{
+	padding-right: 10%;
+	width: 40%;
+	height: 83%;
+	float: left;
+	text-align: right;
+}
+#sright{
+	width: 50%;
+	height: 100%;
 	float: left;
 }
+
 
 
 /*contact*/
