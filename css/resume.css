@@ -123,12 +123,10 @@ body {
 #info h1{
 	padding-top: 2%;
 	padding-bottom: 5%;
-	font-size: 20pt;
-	font-size: 2vw;
+	font-size: 18pt;
 }
 #info p{
-	font-size: 11pt;
-	font-size: 1vw;
+	font-size: 10pt;
 }
 #ileft{
 	padding-left: 5%;
