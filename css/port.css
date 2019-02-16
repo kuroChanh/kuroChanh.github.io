@@ -1,0 +1,248 @@
+body, a, p, ul, li, h1, html, div{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #193415;
+}
+body {
+	background-color: #d2dfc5;
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+/*nav bar*/
+#nav {
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 22px;
+	/*stays on screen*/
+	position: fixed;
+	/*stays on top*/
+	z-index: 3;
+	background-color: #193415;
+	text-align: center;
+}
+#nav ul {
+	float: right;
+	/*no bullets*/
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+}
+#nav a {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	/*hints to clickable items*/
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-color: #4f7b3c;
+	/*animation time*/
+	transition: all .2s;
+	text-decoration: none;
+}
+/*main*/
+#main{
+	padding-top: 40px;
+}
+.section{
+	width: 100%;
+	text-align: center;
+}
+/*header*/
+#preview{
+	margin: auto;
+	padding-bottom: 5%;
+	width: 80%;
+	height: 50vh;
+}
+.col{
+	width: 33.3%;
+	height: 100%;
+	background-image: url("../images/yeah.jpg");
+	background-repeat: none;
+	background-size: cover;
+	float: left;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+/*portfolio posts*/
+.port{
+	position: relative;
+	margin: auto;
+	margin-bottom: 5%;
+	width: 80%;
+	height: 70vh;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+.port p{
+	text-align: center;
+	font-size: 12pt;
+}
+.post{
+	width: 25%;
+	height: 80%;
+	/*background-color: #000000;*/
+	transition: 0.2s ease;
+}
+#cport1{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translate(-10%, -50%);
+}
+#cport1:hover{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	transition: 0.2s ease;
+	transform: translate(-10%, -51%);
+}
+#cport2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#cport2:hover{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	transition: 0.2s ease;
+	transform: translate(-50%, -51%);
+}
+#cport3{
+	position: absolute;
+	top: 50%;
+	left: 90%;
+	transform: translate(-90%, -50%);
+}
+#cport3:hover{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	transition: 0.2s ease;
+	transform: translate(-90%, -51%);
+}
+.postimg{
+	width: 100%;
+	height: 50%;
+	background-image: url("../images/yeah.jpg");
+	background-repeat: none;
+	background-size: cover;
+	margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact*/
+#contact{
+	background-color: #193415;
+	height: 25vmax;
+	color: #d2dfc5;
+	/*overflow: auto;*/
+}
+#contact h1{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+#contact hr{
+	width: 50%;
+}
+#conTop{
+	margin: auto;
+	width: 60%;
+	height: 55%;
+}
+.conPiece{
+	padding-bottom: 2%;
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+.conPiece a{
+	display: inline-block;
+	text-decoration: none;
+	color: #193415;
+	float: left;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.conPiece p{
+	width: 80%;
+	margin-left: 2%;
+	margin-top: 2.5%;
+	float: left;
+	text-align: left;
+	font-size: 10pt;
+	cursor: pointer;
+	transition: 0.3s ease;
+	word-wrap: break-word;
+}
+.conPiece p:hover{
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+#titlehr{
+	margin-bottom: 4%;
+}
+#twittericon, #linkedinicon, #twitchicon, #discordicon {
+	padding: 10px;
+	background: #d2dfc5;
+	border-radius: 5px;
+	font-size: 1.25em;
+	transition: 0.3s ease;
+}
+#twitchicon{
+	padding-left: 11px;
+	padding-right: 11px;
+}
+#twittericon:hover, #linkedinicon:hover, #twitchicon:hover, #discordicon:hover {
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+#copyright{
+	width: 100%;
+	float: left;
+	font-size: 8pt;
+	background-color: #193415;
+}
+/*media query*/
+@media screen and (max-width: 960px){
+	#contact{
+		height: 40vmax;
+	}
+	.conPiece{
+		width: 100%;
+		padding-bottom: 0;
+	}
+	.conPiece a{
+		margin-left: 15%;
+	}
+	.conPiece p{
+		margin-top: 0;
+		width: 70%;
+	}
+}
