@@ -10,9 +10,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 		<!-- css -->
-		<link rel="stylesheet" type="text/css" href="css/port.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tut.css"/>
 		<!-- js -->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<!-- ts -->		
+		<script type="text/javascript" src="js/temp.js"></script>
+		<script type="text/javascript" src="js/tut.js"></script>
 	</head>
 	<body>
 		<!-- nav bar -->
@@ -25,54 +29,8 @@
 			</ul>
 		</div>
 		<div id="main">
-			<div id="preview">
-				<div class="col"></div>
-				<div class="col"></div>
-				<div class="col"></div>
-			</div>
-			<div id="cport" class="port">
-				<div id="cport1" class="post">
-					<div class="postimg"></div>
-					<p>Custom</p>
-				</div>
-				<div id="cport2" class="post">
-					<div class="postimg"></div>
-					<p>Engine</p>
-				</div>
-				<div id="cport3" class="post">
-					<div class="postimg"></div>
-					<p><b>Brick Breaker Game</b></p>
-					<p>This game started from a simple tutorial, and I am going to improve it and make it my own.</p>
-				</div>
-			</div>
-			<div id="aport" class="port">
-				<div id="cport1" class="post">
-					<div class="postimg"></div>
-					<p>Drawing</p>
-				</div>
-				<div id="cport2" class="post">
-					<div class="postimg"></div>
-					<p>Art</p>
-				</div>
-				<div id="cport3" class="post">
-					<div class="postimg"></div>
-					<p>Posts</p>
-				</div>
-			</div>
-			<div id="mport" class="port">
-				<div id="cport1" class="post">
-					<div class="postimg"></div>
-					<p>Magica</p>
-				</div>
-				<div id="cport2" class="post">
-					<div class="postimg"></div>
-					<p>Voxel</p>
-				</div>
-				<div id="cport3" class="post">
-					<div class="postimg"></div>
-					<p>Posts</p>
-				</div>
-			</div>
+			<canvas id="gameCanvas"></canvas>
+
 
 
 			<div id="contact" class="section">				
@@ -104,5 +62,8 @@
 				</div>
 			</div>
 		</div>
+		<!-- load react.js and it must be placed here-->
+		<!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>  -->
 	</body>
 </html>

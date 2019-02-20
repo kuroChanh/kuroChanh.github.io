@@ -91,6 +91,9 @@ body {
 .port p{
 	text-align: center;
 	font-size: 12pt;
+	padding-bottom: 7%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 .post{
 	width: 25%;
