@@ -88,10 +88,10 @@ body {
 	background-color: #FFFFFF;
 	border-radius: 5px;
 }
-.port p{
+.port p, .extend{
 	text-align: center;
 	font-size: 12pt;
-	padding-bottom: 7%;
+	padding-bottom: 5%;
 	padding-left: 3%;
 	padding-right: 3%;
 }
