@@ -58,6 +58,9 @@ $(document).ready(function(){
 		brickcolcheck();
 		// key handling
 		eventCheck();
+		// causes the draw function to call itself
+		// gives control of the framerate back to the browser
+		requestAnimationFrame(draw);
 	}
 	// event listeners
 	document.addEventListener("keydown", keydownh, false);
@@ -66,9 +69,6 @@ $(document).ready(function(){
 	// gameloop interval
 	// var interval = setInterval(draw, 10);
 	draw();
-	// causes the draw function to call itself
-	// gives control of the framerate back to the browser
-	// requestAnimationFrame(draw);
 
 	// draw ball
 	function drawball(){
@@ -198,7 +198,7 @@ $(document).ready(function(){
 	function win(){
 		alert("WINNER WINNER CHICKEN DINNER");
 		document.location.reload();
-		clearInterval(interval);
+		// clearInterval(interval);
 	}
 
 	// game over
@@ -208,7 +208,7 @@ $(document).ready(function(){
 			alert("GAME OVER");
 			document.location.reload();
 			// needed for chrome to end the game
-			clearInterval(interval);
+			// clearInterval(interval);
 		}
 		else{
 			x = canvas.width / 2;
