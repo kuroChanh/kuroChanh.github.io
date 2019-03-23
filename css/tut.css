@@ -1,6 +1,10 @@
 #gameCanvas{
 	margin: auto;
-	width: 480px;
-	height: 320px;
+	width: 80%;
+	height: 60vh;
 	border: solid;
+}
+canvas{
+	width: 100%;
+	height: 100%;
 }
