@@ -181,9 +181,11 @@ body {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
-	background-image: url("../images/yeah.jpg");
+	background-image: url("../images/akira2.png");
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: 50% 10%;
+	/*background-size: cover;*/
+	background-size: 150%;
 }
 #art2{
 	width: 100%;

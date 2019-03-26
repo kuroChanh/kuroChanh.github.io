@@ -143,10 +143,31 @@ body {
 .postimg{
 	width: 100%;
 	height: 50%;
-	background-image: url("../images/yeah.jpg");
-	background-repeat: none;
+	/*background-image: url("../images/yeah.jpg");*/
+	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 4%;
+}
+#drawing1{
+	background-image: url("../images/akira2.png");
+	background-size: 150%;
+	background-position: 50% 10%;
+}
+#drawing2{
+	background-image: url("../images/three.gif");
+	background-size: 100%;
+	background-position: center;
+}
+
+#model1{
+	background-image: url("../images/all.png");
+	background-size: 100%;
+	background-position: center;
+}
+#model2{
+	background-image: url("../images/inner.png");
+	background-size: 100%;
+	background-position: center;
 }
 
 

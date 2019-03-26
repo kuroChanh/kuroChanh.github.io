@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var currAnime = document.getElementById('aCurr');
 	var currTitle = document.getElementById('aTitle');
 	var currStatus = document.getElementById('aStatus');
-	var animeGallery = ['akira.png', 'new.png', 'test.png', 'reach.png', 'ccs.png'];
+	var animeGallery = ['akira2.png', 'akira.png', 'new.png', 'test.png', 'reach.png'];
 
 	var next = false;
 	var prev = false;
