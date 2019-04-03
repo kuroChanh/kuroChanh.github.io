@@ -148,6 +148,23 @@ body {
 	background-size: cover;
 	margin-bottom: 4%;
 }
+
+#engine1{
+	background-image: url("../images/battle.gif");
+	background-size: 150%;
+	background-position: 50% 50%;
+}
+#engine2{
+	background-image: url("../images/player.gif");
+	background-size: 150%;
+	background-position: 50% 50%;
+}
+#engine3{
+	background-image: url("../images/dialogue.gif");
+	background-size: 150%;
+	background-position: 50% 50%;
+}
+
 #drawing1{
 	background-image: url("../images/akira2.png");
 	background-size: 150%;
