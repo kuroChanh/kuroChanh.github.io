@@ -175,6 +175,11 @@ body {
 	background-size: 100%;
 	background-position: center;
 }
+#drawing3{
+	background-image: url("../images/new.png");
+	background-size: 100%;
+	background-position: top;
+}
 
 #model1{
 	background-image: url("../images/all.png");

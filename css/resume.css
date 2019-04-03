@@ -78,8 +78,9 @@ body {
 	top: 10%;
 	width: 150px;
 	height: 150px;
-	background-image: url("../images/yeah.jpg");
+	background-image: url("../images/profile2.jpg");
 	background-repeat: none;
+	background-position: 100% 0%;
 	background-size: cover;
 	border-radius: 50%;
 }
