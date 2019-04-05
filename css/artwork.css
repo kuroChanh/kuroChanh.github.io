@@ -156,7 +156,7 @@ body {
 	width: 100%;
 	height: 100%;
 	float: left;
-	background-image: url("../images/akira2.png");
+	background-image: url("../images/2b.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -226,6 +226,11 @@ body {
 }
 #a6{
   background-image: url("../images/akira2.png");
+  background-size: cover;
+  background-position: 50% 30%;
+}
+#a7{
+  background-image: url("../images/2b.png");
   background-size: cover;
   background-position: 50% 30%;
 }
