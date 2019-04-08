@@ -52,6 +52,26 @@ body {
 	transition: all .2s;
 	text-decoration: none;
 }
+.button{
+	padding: 10px 40px;
+	text-align: center;
+	background: #193415;
+	color: #FFFFFF;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+	font-weight: bold;
+	font-size: 10pt;
+	position: relative;
+	top: 95%;
+	left: 44%;
+	transform: translate(-44%, -95%);
+}
+.button:hover{
+	background: #FFFFFF;
+	color: #193415;
+	transition: 0.2s ease;
+}
 /*main*/
 #main{
 	padding-top: 40px;
@@ -87,6 +107,7 @@ body {
 	height: 70vh;
 	background-color: #FFFFFF;
 	border-radius: 5px;
+	padding-bottom: 2%;
 }
 .port p, .extend{
 	text-align: center;
@@ -97,7 +118,7 @@ body {
 }
 .post{
 	width: 25%;
-	height: 80%;
+	height: 70%;
 	/*background-color: #000000;*/
 	transition: 0.2s ease;
 }
