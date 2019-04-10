@@ -7,7 +7,7 @@ a{
 	color: #193415;
 }
 body {
-	background-color: #d2dfc5;
+	background-color: #a2c276;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	/*stays on top*/
 	z-index: 3;
-	background-color: #193415;
+	background-color: #4d6b2b;
 	text-align: center;
 }
 #nav ul {
@@ -47,30 +47,10 @@ body {
 	text-decoration: none;
 }
 #nav a:hover {
-	background-color: #4f7b3c;
+	background-color: #57763d;
 	/*animation time*/
 	transition: all .2s;
 	text-decoration: none;
-}
-.button{
-	padding: 10px 40px;
-	text-align: center;
-	background: #193415;
-	color: #FFFFFF;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: 0.2s ease;
-	font-weight: bold;
-	font-size: 10pt;
-	position: relative;
-	top: 95%;
-	left: 44%;
-	transform: translate(-44%, -95%);
-}
-.button:hover{
-	background: #FFFFFF;
-	color: #193415;
-	transition: 0.2s ease;
 }
 /*main*/
 #main{
@@ -80,155 +60,111 @@ body {
 	width: 100%;
 	text-align: center;
 }
-/*header*/
-#preview{
-	margin: auto;
-	padding-bottom: 5%;
-	width: 80%;
-	height: 50vh;
+
+/*timeline*/
+.container{
+	padding-bottom: 10%;
 }
-.col{
-	width: 33.3%;
-	height: 100%;
-	background-image: url("../images/yeah.jpg");
-	background-repeat: none;
-	background-size: cover;
-	float: left;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-/*portfolio posts*/
-.port{
+.container ul {
+	margin: 0;
+	margin-top: 100px;
+	list-style: none;
 	position: relative;
-	margin: auto;
-	margin-bottom: 5%;
-	width: 80%;
-	height: 70vh;
-	background-color: #FFFFFF;
-	border-radius: 5px;
-	padding-bottom: 2%;
+	padding: 1px 100px;
+	color: #FFFFFF;
+	font-size: 13px;
 }
-.port p, .extend{
-	text-align: center;
-	font-size: 12pt;
-	padding-bottom: 5%;
-	padding-left: 3%;
-	padding-right: 3%;
+.container ul:before {
+	content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px dashed #FFFFFF;
 }
-.post{
-	width: 25%;
-	height: 70%;
-	/*background-color: #000000;*/
-	transition: 0.2s ease;
+.container ul li {
+	position: relative;
+	/*position the posts*/
+	margin-left: 30px;
+	padding: 14px;
+	/*background-color: rgba(103, 145, 122, 0.75);*/
+	background-color: #57763d;
+	/*rounded corners*/
+	border-radius: 6px;
+	/*width of text box*/
+	/*width: 250px; */
+	width: 35%; 
+	/*shadow border*/
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
 }
-#cport1{
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	transform: translate(-10%, -50%);
+.container ul li:not(:first-child) {
+	/*space between each post*/
+ 	margin-top: 60px;
 }
-#cport1:hover{
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-	transition: 0.2s ease;
-	transform: translate(-10%, -51%);
+.container ul li > span {
+	/*the line width*/
+  	width: 2px;
+  	height: 100%;
+  	position: absolute;
+  	background: #FFFFFF;
+  	left: -30px;
+  	top: 0;
 }
-#cport2{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.container ul li > span:before, .container ul li > span:after {
+	/*circle*/
+  	content: "";
+  	width: 8px;
+  	height: 8px;
+  	border-radius: 50%;
+  	border: 2px solid #fff;
+  	position: absolute;
+  	background: #4d6b2b;
+  	top: 0;
+  	left: -5px;
 }
-#cport2:hover{
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-	transition: 0.2s ease;
-	transform: translate(-50%, -51%);
+.container ul li span:after {
+	/*placement of last circle in group*/
+  	top: 100%;
 }
-#cport3{
-	position: absolute;
-	top: 50%;
-	left: 90%;
-	transform: translate(-90%, -50%);
+.container ul li > div {
+	/*margin for text in post*/
+  	margin-left: 10px;
 }
-#cport3:hover{
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-	transition: 0.2s ease;
-	transform: translate(-90%, -51%);
-}
-.postimg{
-	width: 100%;
-	height: 50%;
-	/*background-image: url("../images/yeah.jpg");*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin-bottom: 4%;
+.container div .title, .container div .type {
+	/*bolding the title and post type*/
+  	font-weight: 600;
+  	font-size: 12px;
 }
 
-#engine1{
-	background-image: url("../images/battle.gif");
-	background-size: 150%;
-	background-position: 50% 50%;
+.container div .info {
+  	font-weight: 300;
 }
-#engine2{
-	background-image: url("../images/player.gif");
-	background-size: 150%;
-	background-position: 50% 50%;
+.container div > div {
+  	margin-top: 5px;
 }
-#engine3{
-	background-image: url("../images/dialogue.gif");
-	background-size: 150%;
-	background-position: 50% 50%;
+.container span.number {
+  	height: 100%;
 }
-
-#drawing1{
-	background-image: url("../images/akira2.png");
-	background-size: 150%;
-	background-position: 50% 10%;
+.container span.number span {
+	/*post number*/
+  	position: absolute;
+  	font-size: 10px;
+  	left: -60px;
+  	font-weight: bold;
+  	color: #4d6b2b;
 }
-#drawing2{
-	background-image: url("../images/three.gif");
-	background-size: 100%;
-	background-position: center;
+.container span.number span:first-child {
+  	top: 0;
 }
-#drawing3{
-	background-image: url("../images/2b.png");
-	background-size: 100%;
-	background-position: top;
+.container span.number span:last-child {
+	/*placement of last post numnber*/
+  	top: 100%;
 }
-
-#model1{
-	background-image: url("../images/all.png");
-	background-size: 100%;
-	background-position: center;
-}
-#model2{
-	background-image: url("../images/inner.png");
-	background-size: 100%;
-	background-position: center;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /*contact*/
 #contact{
-	background-color: #193415;
+	background-color: #4d6b2b;
 	height: 25vmax;
-	color: #d2dfc5;
+	color: #fff3e3;
 	/*overflow: auto;*/
 }
 #contact h1{
@@ -252,7 +188,7 @@ body {
 .conPiece a{
 	display: inline-block;
 	text-decoration: none;
-	color: #193415;
+	color: #4d6b2b;
 	float: left;
 	cursor: pointer;
 	transition: 0.5s ease;
@@ -294,7 +230,7 @@ body {
 	width: 100%;
 	float: left;
 	font-size: 8pt;
-	background-color: #193415;
+	background-color: #4d6b2b;
 }
 /*media query*/
 @media screen and (max-width: 960px){

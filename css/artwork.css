@@ -7,7 +7,7 @@ a{
 	color: #193415;
 }
 body {
-	background-color: #d2dfc5;
+	background-color: #a2c276;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	/*stays on top*/
 	z-index: 3;
-	background-color: #193415;
+	background-color: #4d6b2b;
 	text-align: center;
 }
 #nav ul {
@@ -47,7 +47,7 @@ body {
 	text-decoration: none;
 }
 #nav a:hover {
-	background-color: #4f7b3c;
+	background-color: #57763d;
 	/*animation time*/
 	transition: all .2s;
 	text-decoration: none;
@@ -236,7 +236,7 @@ body {
 }
 /*contact*/
 #contact{
-	background-color: #193415;
+	background-color: #4d6b2b;
 	height: 25vmax;
 	color: #d2dfc5;
 	/*overflow: auto;*/
@@ -262,7 +262,7 @@ body {
 .conPiece a{
 	display: inline-block;
 	text-decoration: none;
-	color: #193415;
+	color: #4d6b2b;
 	float: left;
 	cursor: pointer;
 	transition: 0.5s ease;
@@ -304,7 +304,7 @@ body {
 	width: 100%;
 	float: left;
 	font-size: 8pt;
-	background-color: #193415;
+	background-color: #4d6b2b;
 }
 @media screen and (max-width: 960px){
 	#contact{
