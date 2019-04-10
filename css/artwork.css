@@ -193,14 +193,72 @@ body {
 .active, .dot:hover {
   	background-color: #717171;
 }
+
+
+/*gallery left*/
+#galLeft{
+	width: 25%;
+	height: 550px;
+	float: left;
+}
+#colImage{
+	width: 60%;
+	height: 80%;
+	float: right;
+	background-image: url("../images/2B.png");
+	background-size: cover;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*gallery right*/
+#galRight{
+	width: 20%;
+	height: 550px;
+	float: left;
+	background-color: #57763d;
+	color: #FFFFFF;
+}
+#colLogo{
+	width: 100%;
+	height: 30%;
+	margin: auto;
+	background-image: url("../images/logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#galRight h1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 16pt;
+	text-align: center;
+}
+#galRight p{
+	font-size: 11pt;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/*to use the typing effect I made, no center and float left*/
+#changeSize{
+	/*float: left;*/
+	/*text-align: center;*/
+	color: #FFFFFF;
+	/*overflow: hidden;
+	white-space: nowrap;*/
+	font-size: 11pt;
+}
+
 /*gallery*/
 #gallery{
-	width: 100%;
+	width: 50%;
 	margin-bottom: 3%;
+	float: left;
 }
 .grid-container{
 	margin: auto;
-	width: 75%;
+	width: 95%;
 	height: 100%;
 }
 #a1{
@@ -239,6 +297,7 @@ body {
 	background-color: #4d6b2b;
 	height: 25vmax;
 	color: #d2dfc5;
+	float: left;
 	/*overflow: auto;*/
 }
 #contact h1{
