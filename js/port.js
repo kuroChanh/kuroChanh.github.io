@@ -1,5 +1,21 @@
 $(document).ready(function(){
+	//image display
 	var currImage = document.getElementById('imgDisplay');
+
+	// //image scroll
+	// var currDisplay = document.getElementById('imgSys');
+	// var currScrollPos;
+
+	// $(window).scroll(function() {
+	// 	currScrollPos = window.scrollY;
+	//     if(window.scrollY >= 3550){
+	//     	currDisplay.setAttribute('style', 'position: relative');
+	//     }
+	//     else if(window.scrollY < 3550){
+	//     	currDisplay.setAttribute('style', 'position: fixed');
+	//     }
+	// });
+
 
 	$("#p20").click(function(){
 		currImage.setAttribute('style', 'background-image: url("images/akira2.png")');
