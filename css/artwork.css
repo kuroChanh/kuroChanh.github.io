@@ -292,6 +292,15 @@ body {
   background-size: cover;
   background-position: 50% 30%;
 }
+#commLink{
+	color: #FFFFFF;
+	font-size: 11pt;
+	margin-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+}
+
 /*contact*/
 #contact{
 	background-color: #4d6b2b;
