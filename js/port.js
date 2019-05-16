@@ -17,7 +17,9 @@ $(document).ready(function(){
 	// });
 
 
-
+	$("#p20").click(function(){
+		currImage.setAttribute('style', 'background-image: url("images/wrap.png")');
+	});
 	$("#p19").click(function(){
 		currImage.setAttribute('style', 'background-image: url("images/battle.gif")');
 	});
