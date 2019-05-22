@@ -292,6 +292,11 @@ body {
   background-size: cover;
   background-position: 50% 30%;
 }
+#a8{
+  background-image: url("../images/lemontea.png");
+  background-size: cover;
+  background-position: 50% 30%;
+}
 #commLink{
 	color: #FFFFFF;
 	font-size: 11pt;
