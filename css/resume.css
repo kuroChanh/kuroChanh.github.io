@@ -145,6 +145,9 @@ body {
 	float: left;
 	/*background-color: grey;*/
 }
+#ileft p{
+	padding-bottom: 2%;
+}
 #iright{
 	padding-left: 5%;
 	padding-right: 5%;
