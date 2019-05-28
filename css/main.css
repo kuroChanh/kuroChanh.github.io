@@ -7,7 +7,7 @@ a{
 	color: #193415;
 }
 body {
-	background-color: #a2c276;
+	background-color: #E9E9E9;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	/*stays on top*/
 	z-index: 3;
-	background-color: #4d6b2b;
+	background-color: #4a5d64;
 	text-align: center;
 }
 #nav ul {
@@ -47,7 +47,7 @@ body {
 	text-decoration: none;
 }
 #nav a:hover {
-	background-color: #57763d;
+	background-color: #243c48;
 	/*animation time*/
 	transition: all .2s;
 	text-decoration: none;
@@ -97,7 +97,7 @@ body {
 	font-size: 10pt;
 }
 .button:hover{
-	background: #57763d;
+	background: #ee8596;
 	color: #FFFFFF;
 	transition: 0.2s ease;
 }
@@ -153,7 +153,7 @@ body {
 }
 /*artwork*/
 #art{
-	background-color: #7fa354;
+	background-color: #4a5d64;
 	/*height: 49vmax;*/
 	height: 100VH;
 }
@@ -224,7 +224,7 @@ body {
 	color: #000000;
 }
 #artbut1:hover, #artbut2:hover {
-	background: #57763d;
+	background: #ee8596;
 	color: #FFFFFF;
 }
 /*portfolio*/
@@ -292,7 +292,7 @@ body {
 }
 /*contact*/
 #contact{
-	background-color: #4d6b2b;
+	background-color: #243c48;
 	height: 25vmax;
 	color: #d2dfc5;
 	/*overflow: auto;*/
@@ -318,7 +318,7 @@ body {
 .conPiece a{
 	display: inline-block;
 	text-decoration: none;
-	color: #4d6b2b;
+	color: #243c48;
 	float: left;
 	cursor: pointer;
 	transition: 0.5s ease;
@@ -360,7 +360,7 @@ body {
 	width: 100%;
 	float: left;
 	font-size: 8pt;
-	background-color: #4d6b2b;
+	background-color: #243c48;
 }
 /*media query*/
 @media screen and (max-width: 960px){

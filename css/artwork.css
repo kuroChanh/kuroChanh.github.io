@@ -7,7 +7,7 @@ a{
 	color: #193415;
 }
 body {
-	background-color: #a2c276;
+	background-color: #E9E9E9;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	/*stays on top*/
 	z-index: 3;
-	background-color: #4d6b2b;
+	background-color: #4a5d64;
 	text-align: center;
 }
 #nav ul {
@@ -47,7 +47,7 @@ body {
 	text-decoration: none;
 }
 #nav a:hover {
-	background-color: #57763d;
+	background-color: #243c48;
 	/*animation time*/
 	transition: all .2s;
 	text-decoration: none;
@@ -216,7 +216,7 @@ body {
 	width: 20%;
 	height: 550px;
 	float: left;
-	background-color: #57763d;
+	background-color: #ee8596;
 	color: #FFFFFF;
 }
 #colLogo{
@@ -308,7 +308,7 @@ body {
 
 /*contact*/
 #contact{
-	background-color: #4d6b2b;
+	background-color: #243c48;
 	height: 25vmax;
 	color: #d2dfc5;
 	float: left;
@@ -335,7 +335,7 @@ body {
 .conPiece a{
 	display: inline-block;
 	text-decoration: none;
-	color: #4d6b2b;
+	color: #243c48;
 	float: left;
 	cursor: pointer;
 	transition: 0.5s ease;
@@ -377,7 +377,7 @@ body {
 	width: 100%;
 	float: left;
 	font-size: 8pt;
-	background-color: #4d6b2b;
+	background-color: #243c48;
 }
 @media screen and (max-width: 960px){
 	#contact{

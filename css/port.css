@@ -7,7 +7,7 @@ a{
 	color: #193415;
 }
 body {
-	background-color: #a2c276;
+	background-color: #E9E9E9;
 	width: 100%;
 	font-family: "Verdana", Arial, Sans-serif, Serif;
 }
@@ -22,7 +22,7 @@ body {
 	position: fixed;
 	/*stays on top*/
 	z-index: 3;
-	background-color: #4d6b2b;
+	background-color: #4a5d64;
 	text-align: center;
 }
 #nav ul {
@@ -47,7 +47,7 @@ body {
 	text-decoration: none;
 }
 #nav a:hover {
-	background-color: #57763d;
+	background-color: #243c48;
 	/*animation time*/
 	transition: all .2s;
 	text-decoration: none;
@@ -90,7 +90,7 @@ body {
 	margin-left: 30px;
 	padding: 14px;
 	/*background-color: rgba(103, 145, 122, 0.75);*/
-	background-color: #57763d;
+	background-color: #4a5d64;
 	/*rounded corners*/
 	border-radius: 6px;
 	/*width of text box*/
@@ -120,7 +120,7 @@ body {
   	border-radius: 50%;
   	border: 2px solid #fff;
   	position: absolute;
-  	background: #4d6b2b;
+  	background: #ee8596;
   	top: 0;
   	left: -5px;
 }
@@ -153,7 +153,7 @@ body {
   	font-size: 10px;
   	left: -60px;
   	font-weight: bold;
-  	color: #4d6b2b;
+  	color: #243c48;
 }
 .container span.number span:first-child {
   	top: 0;
@@ -195,7 +195,7 @@ body {
 }
 
 #iconl{
-	background-color: #4d6b2b;
+	background-color: #ee8596;
 	color: #FFFFFF;
 	margin-top: 4.5%;
 	margin-left: 5%;
@@ -204,7 +204,7 @@ body {
 	font-size: 16pt;
 }
 #icon{
-	background-color: #4d6b2b;
+	background-color: #ee8596;
 	color: #FFFFFF;
 	margin-top: 4.5%;
 	margin-left: 2%;
