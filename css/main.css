@@ -82,8 +82,20 @@ body {
 	text-align: center;
 	/*text-shadow: #000000 1px 0 10px;
 	color: #d2dfc5*/
-	text-shadow: #FFF 1px 0 10px;
-	color: #243c48
+	/*text-shadow: #FFF 1px 0 10px;*/
+	color: #FFFFFF;
+}
+#bgphoto h2{
+	position: absolute;
+	top: 77%;
+  	left: 50%;
+  	transform: translate(-50%, -77%);
+	margin: auto;
+	text-align: center;
+	/*text-shadow: #000000 1px 0 10px;
+	color: #d2dfc5*/
+	/*text-shadow: #FFF 1px 0 10px;*/
+	color: #FFFFFF;
 }
 /*contact*/
 #contact{

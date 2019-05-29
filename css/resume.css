@@ -89,15 +89,15 @@ body {
 	position: relative;
 	top: 15%;
 	font-size: 3vw;
-	text-shadow: #FFF 1px 0 10px;
-	color: #243c48
+	/*text-shadow: #FFF 1px 0 10px;*/
+	color: #FFFFFF;
 }
 #header p{
 	position: relative;
 	top: 17%;
 	font-size: 2vw;
-	text-shadow: #FFF 1px 0 10px;
-	color: #243c48
+	/*text-shadow: #FFF 1px 0 10px;*/
+	color: #FFFFFF;
 }
 #hbtn{
 	position: absolute;
