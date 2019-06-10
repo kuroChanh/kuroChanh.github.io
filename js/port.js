@@ -17,6 +17,9 @@ $(document).ready(function(){
 	// });
 
 
+	$("#p21").click(function(){
+		currImage.setAttribute('style', 'background-image: url("images/particle.gif")');
+	});
 	$("#p20").click(function(){
 		currImage.setAttribute('style', 'background-image: url("images/wrap.png")');
 	});
