@@ -173,9 +173,9 @@ body {
 /*TITLES*/
 .peek{
 	width: 75%;
-	height: 50vh;
+	height: 55vh;
 	margin: auto;
-	padding-bottom: 5%;
+	padding-bottom: 7%;
 }
 .peek p{
 	color: white;
@@ -281,6 +281,70 @@ body {
 	color: #2D5FAA;
 	transform: translate(-5%, 0%);
 	cursor: default;
+}
+
+/*ARTWORK*/
+.artpiece{
+	width: 90%;
+	height: 90%;
+	transform: translate(5%, 5%);
+	border: 2px solid transparent;
+	transition: all 0.2s;
+}
+#art1:hover .artpiece, #art2:hover .artpiece, #art3:hover .artpiece{
+	border: 2px solid #d34e5e;
+	transition: all 0.2s;
+}
+#art1{
+	width: 49%;
+	height: 100%;
+	margin-right: 1%;
+	float: left;
+	background-image: url("../Images/me8.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: all 0.2s;
+}
+#art1:hover{
+	transform: translate(-5%, 0%);
+	transition: all 0.2s;
+}
+#art2{
+	width: 49%;
+	height: 48%;
+	margin-left: 1%;
+	float: left;
+	background-image: url("../Images/me9.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: all 0.2s;
+}
+#art2:hover{
+	transform: translate(5%, 0%);
+	transition: all 0.2s;
+}
+#artspace{
+	width: 49%;
+	height: 4%;
+	margin-left: 1%;
+	float: left;
+}
+#art3{
+	width: 49%;
+	height: 48%;
+	margin-left: 1%;
+	float: left;
+	background-image: url("../Images/me10.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: all 0.2s;
+}
+#art3:hover{
+	transform: translate(5%, 0%);
+	transition: all 0.2s;
 }
 
 /*COPYRIGHT*/
