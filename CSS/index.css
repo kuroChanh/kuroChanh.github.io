@@ -167,6 +167,12 @@ body {
 	color: white;
 	font-size: 65px;
 	line-height: 150%;
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 /*SNEAK PEAK*/
@@ -256,6 +262,7 @@ body {
 #skills{
 	width: 100%;
 	height: 50%;
+	margin-left: 25%;
 }
 #skills ul{
 	padding-top: 3%;
@@ -345,6 +352,41 @@ body {
 #art3:hover{
 	transform: translate(5%, 0%);
 	transition: all 0.2s;
+}
+
+/*WORK PIECES*/
+.workpiece{
+	width: 100%;
+	height: 100%;
+}
+#work1{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-image: url("../Images/VTuber1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#work2{
+	width: 30%;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+	background-image: url("../Images/VTuber0.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#work3{
+	width: 30%;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+	background-image: url("../Images/RMGenshinAudio.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
 
 /*COPYRIGHT*/
