@@ -174,6 +174,9 @@ body {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+#quote br{
+	line-height: 2px;
+}
 
 /*SNEAK PEAK*/
 /*TITLES*/
@@ -231,34 +234,50 @@ body {
 #media{
 	width: 50%;
 	height: 50%;
-	float: left;
+	padding-top: 5%;
 }
 .mediaicon{
-	width: 50%;
+	width: 15%;
 	height: 30%;
 	padding-bottom: 1%;
+	float: left;
 }
 .mediaicon a{
 	display: inline-block;
 	text-decoration: none;
-	color: #243c48;
+	color: white;
 	float: left;
 	cursor: pointer;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
+}
+.mediaicon a:hover{
+	display: inline-block;
+	text-decoration: none;
+	color: #2D5FAA;
+	float: left;
+	cursor: pointer;
+	transition: 0.2s ease;
 }
 #icon{
-	padding: 10px;
+	padding: 5px;
+	background: #2D5FAA;
+	border-radius: 5px;
+	font-size: 1.25em;
+	transition: 0.2s ease;
+}
+#icon:hover{
+	padding: 5px;
 	background: white;
 	border-radius: 5px;
 	font-size: 1.25em;
-	transition: 0.3s ease;
+	transition: 0.2s ease;
 }
+/*SKILLS*/
 #profileright{
 	width: 50%;
 	height: 100%;
-	float: left;
-}
-/*SKILLS*/
+	float: left;}
+
 #skills{
 	width: 100%;
 	height: 50%;
@@ -282,12 +301,14 @@ body {
 	border-left-width: 5px;
 	border-radius: 5px;
 	cursor: default;
+	transition: 0.2s ease;
 }
 #skills li:hover{
 	background-color: white;
 	color: #2D5FAA;
 	transform: translate(-5%, 0%);
 	cursor: default;
+	transition: 0.2s ease;
 }
 
 /*ARTWORK*/
