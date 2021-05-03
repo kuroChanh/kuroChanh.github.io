@@ -1,0 +1,100 @@
+/*Main stuff*/
+body, a, p, ul, li, h1, html, div{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #193415;
+}
+body {
+	background-color: #112751;
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+/*RETURN HOME BUTTON*/
+#returnhome{
+	width: 10%;
+	padding: 1% 0%;
+	padding-left: 2%;
+	transition: all 0.2s;
+}
+#returnhome:hover{
+	padding-left: 2.5%;
+	transition: all 0.2s;
+}
+#returnhome p{
+	color: white;
+	text-align: center;
+	font-size: 36px;
+}
+/*ART POSTS*/
+#artworkposts{
+	width: 80%;
+	padding: 3% 10%;
+}
+.post{
+	width: 45%;
+	margin-bottom: 2.5%;
+	margin-left: 2.5%;
+	display: inline-block;
+	transition: all 0.2s;
+}
+.post p{
+	color: white;
+}
+/*IMAGE*/
+.display{
+	width: 100%;
+	padding-top: 47%;
+	padding-bottom: 3%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	-webkit-clip-path: polygon(0 11%, 5% 0, 100% 0, 100% 89%, 95% 100%, 0 100%);
+	background-color: rgba(0, 0, 0, 0.25);
+	transition: all 0.2s;
+}
+.display:hover{
+	background-size: 70%;
+	transition: all 0.2s;
+}
+#artimg1{
+	background-image: url("../Images/VTuber1.gif");
+}
+#artimg2{
+	background-image: url("../Images/VTuber0.gif");
+}
+#artimg3{
+	background-image: url("../Images/RMGenshinAudio.png");
+}
+/*STATUS*/
+.status{
+	padding: 1%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+/*TITLE*/
+.title{
+	margin-left: 1%;
+	padding: 2% 0%;
+	font-size: 26px;
+}
+/*DESCRIPTION*/
+.desc{
+	margin-left: 1%;
+}
+/*COPYRIGHT*/
+#copyright{
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #7f929b;
+	text-align: center;
+	font-size: 12px;
+	background-color: #112751;
+}
+#copyright hr{
+	width: 80%;
+	border-color: #7f929b;
+}

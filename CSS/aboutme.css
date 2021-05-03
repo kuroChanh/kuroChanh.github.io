@@ -1,0 +1,44 @@
+/*Main stuff*/
+body, a, p, ul, li, h1, html, div{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #193415;
+}
+body {
+	background-color: #112751;
+	width: 100%;
+	font-family: "Verdana", Arial, Sans-serif, Serif;
+}
+/*RETURN HOME BUTTON*/
+#returnhome{
+	width: 10%;
+	padding: 1% 0%;
+	padding-left: 2%;
+	transition: all 0.2s;
+}
+#returnhome:hover{
+	padding-left: 2.5%;
+	transition: all 0.2s;
+}
+#returnhome p{
+	color: white;
+	text-align: center;
+	font-size: 36px;
+}
+/*COPYRIGHT*/
+#copyright{
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #7f929b;
+	text-align: center;
+	font-size: 12px;
+	background-color: #112751;
+}
+#copyright hr{
+	width: 80%;
+	border-color: #7f929b;
+}
